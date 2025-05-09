@@ -1,0 +1,293 @@
+@use "variables" as v;
+@use "sass:color";
+
+@mixin page-basic($padding: 1rem 10%, $padding-bottom: 4rem) {
+  background-color: v.$black;
+  padding: $padding;
+  padding-bottom: $padding-bottom;
+  min-height: calc(100vh - 21rem);
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+
+  @media (max-width: 1440px) {
+    padding: 1rem 2rem;
+    padding-bottom: 4rem;
+  }
+  @media (max-width: 767px) {
+    padding: 1rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@mixin user-area {
+  flex: 4;
+  border: 1px solid v.$white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-left: 2rem;
+
+  &__title {
+    color: v.$thirdary;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  @media (max-width: 768px) {
+    flex: 0;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@mixin text-basic {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+}
+
+@mixin small-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@mixin btn-basic(
+  $white-space: nowrap,
+  $padding: 0.5rem 1rem,
+  $radius: 10px,
+  $font: 1rem
+) {
+  font-size: $font;
+  display: inline-block;
+  padding: $padding;
+  white-space: $white-space;
+  border-radius: $radius;
+  text-align: center;
+  cursor: pointer;
+}
+
+@mixin img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@mixin tag-status {
+  padding: 2px 4px;
+  font-size: 12px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+@mixin tag-genre {
+  padding: 0.4rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+@mixin flex-center($align: center, $justify: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin sensational-mask {
+  //暫時遮住圖片
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #868383;
+    opacity: 1;
+  }
+}
+
+@mixin nowrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+@mixin interactive-btn {
+  transition: 0.35s;
+
+  &:hover {
+    background-color: v.$thirdary-light;
+    color: v.$black;
+  }
+}
+
+@mixin interactive-btn2(
+  $border-radius: 8px,
+  $shadow-color-white: v.$shadow-color-white,
+  $shadow-color-black: v.$shadow-color-black
+) {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: $border-radius;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+    box-shadow: 0 0 5px 5px $shadow-color-white;
+    z-index: 1;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+
+    &::before {
+      opacity: 0.7;
+    }
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px $shadow-color-black,
+      inset 0 0 8px $shadow-color-white;
+
+    &::before {
+      opacity: 0.5;
+      box-shadow: 0 0 8px 3px $shadow-color-white;
+    }
+  }
+}
+
+$base-color: #b8a399;
+$focus-shadow-color: rgba($base-color, 0.4);
+$border-color: color.adjust($base-color, $lightness: -10%);
+$placeholder-color: color.adjust($base-color, $lightness: 15%);
+$text-color: color.adjust($base-color, $lightness: -35%);
+$transition-duration: 0.3s;
+
+@mixin input-focus {
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: $border-color;
+    transform: translateX(-50%);
+    transition: width $transition-duration ease;
+  }
+
+  // 佔位符樣式
+  &::placeholder {
+    color: $placeholder-color;
+    transition: opacity $transition-duration ease;
+  }
+
+  // 懸停狀態
+  &:hover {
+    border-color: color.adjust($base-color, $lightness: 5%);
+    background-color: rgba($base-color, 0.03);
+  }
+
+  // 聚焦狀態
+  &:focus {
+    border-color: $border-color;
+    box-shadow: 0 0 0 4px $focus-shadow-color;
+    background-color: #fff;
+
+    &::placeholder {
+      opacity: 0.7;
+    }
+
+    & + label {
+      color: $border-color;
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+
+  // 已填寫狀態
+  &:not(:placeholder-shown) {
+    border-color: $base-color;
+  }
+}
+
+@mixin floating-label {
+  position: relative;
+  margin-top: 1rem;
+
+  .custom-input {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .floating-label {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    color: $placeholder-color;
+    pointer-events: none;
+    transition: all $transition-duration ease;
+  }
+
+  .custom-input:focus ~ .floating-label,
+  .custom-input:not(:placeholder-shown) ~ .floating-label {
+    top: -0.5rem;
+    left: 0.5rem;
+    font-size: 0.75rem;
+    color: $border-color;
+    background-color: #fff;
+    padding: 0 0.25rem;
+  }
+}
+
+@mixin single-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin home-carousel-setting {
+  /* 左右箭頭大小與顏色 */
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+
+  /* 修改分頁點的顏色、大小 */
+  .swiper-pagination-bullet {
+    background: v.$white;
+    width: 12px;
+    height: 12px;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+  }
+
+  /* 目前選中的分頁點 */
+  .swiper-pagination-bullet-active {
+    background: v.$aid;
+    opacity: 1;
+  }
+
+  /* 分頁點方形 */
+  .swiper-pagination-bullet {
+    border-radius: 4px;
+  }
+}

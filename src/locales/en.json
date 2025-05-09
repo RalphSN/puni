@@ -1,0 +1,643 @@
+{
+  "navbar": {
+    "home": "Home",
+    "popularGames": "Popular Free Games",
+    "login": "Login",
+    "register": "Register",
+    "language": "Language",
+    "member": "Member Area",
+    "hello": "Hi",
+    "logout": "logout",
+    "gift": "Game Gift"
+  },
+  "languages": {
+    "en": "English",
+    "zh-TW": "繁體中文",
+    "zh-CN": "简体中文",
+    "zh-HK": "简体中文-港"
+  },
+  "footer": {
+    "adultContentWarning": "This site contains adult content. You must be 18 or older to view it.",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "contactUs": "Contact Us",
+    "faq": "FAQ"
+  },
+  "home": {
+    "popularGames": "Popular Free Games",
+    "more": "View More",
+    "reserve": "Pre-order Now"
+  },
+  "game": {
+    "naruto": "Naruto：Shinobi Exam",
+    "raikage": "Raikage：Shinobi Exam",
+    "kazekage": "Kazekage：Shinobi Exam",
+    "threeKingdoms": "Three Kingdoms：One Unified World",
+    "sixKingdoms": "Six Kingdoms：One Unified World",
+    "description": "",
+    "play": "PLAY",
+    "reserve": "Reserve"
+  },
+  "login": {
+    "title": "Member Login",
+    "username": "Username",
+    "password": "Password",
+    "enterUsername": "Enter your username",
+    "enterPassword": "Enter your password",
+    "loginBtn": "Login",
+    "agreePolicy": "By logging in, you agree to our",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "register-login": {
+    "title": "Don't have an account?",
+    "registerBtn": "Register (Free)",
+    "forgotPassword": "Forgot Password"
+  },
+  "tips": {
+    "loginIssueTitle": "Incorrect username or password",
+    "loginIssueContent": "Check uppercase, lowercase letters, and numbers, then enter the correct information again.",
+    "registerTitle": "How to register?",
+    "registerContent": "If you haven't registered yet, please use [Register] to create an account."
+  },
+  "register": {
+    "title": "Register Account",
+    "username": "Username",
+    "enterUsername": "Enter your username",
+    "password": "Password",
+    "enterPassword": "Enter your password",
+    "confirmPassword": "Confirm Password",
+    "enterConfirmPassword": "Re-enter your password",
+    "registerBtn": "Register",
+    "agreePolicy": "By registering, you agree to our",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "login-register": {
+    "alreadyHaveAccount": "Already have an account?",
+    "loginBtn": "Login"
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email",
+    "uploadLabel": "Upload proof (max 3 files)",
+    "uploadPlaceholder": "Drag & drop or click to upload",
+    "submit": "Submit",
+    "maxFiles": "Max 3 files allowed",
+    "uploadRequired": "Please upload a proof file",
+    "success": "Submitted! Check your email",
+    "submitError": "Submission failed, try again",
+    "fetchError": "Failed to fetch data",
+    "historyTitle": "Upload History",
+    "uploaded": "uploaded",
+    "noHistory": "No upload history"
+  },
+  "tags": {
+    "rpg": "RPG",
+    "card": "Card Battle",
+    "action": "Action",
+    "openWorld": "Open World"
+  },
+  "platforms": {
+    "android": "Android",
+    "ios": "iOS",
+    "pc": "PC"
+  },
+  "hot": {
+    "title": "Hot Free Games",
+    "filter-platform": "Device Type",
+    "filter-genre": "Game Genre",
+    "no-results": "Please change the filter conditions."
+  },
+  "details": {
+    "header": "Popular Free Games",
+    "title": "",
+    "version": "Version",
+    "description": "A mysterious witch accidentally travels to the world of Naruto and joins the Hidden Leaf Village. Here, you fight alongside many female Naruto heroes to protect your home. You face powerful forces that threaten the village and world peace. Throughout this journey, you grow and become a true ninja.",
+    "introduction": "Game Introduction",
+    "introduce": "The mobile game 'Naruto' is based on the anime's storyline, telling the story of the protagonist who strives to protect the ninja world and dreams of becoming the king of the Hokage harem. Players can collect ninjas such as Naruto Uzumaki, Sasuke Uchiha, and Sakura Haruno to safeguard the ninja world. The game features battle development elements such as magatama, talents, tailed beasts, and artifacts, as well as PvP modes like ranking battles and point-based competitions. Experience unique adult gameplay, including the Geisha Research Institute, and unlock stories of many beautiful female ninjas. This game features a Hokage-style training system, allowing you to recruit powerful ninjas like Naruto, Sasuke, Kakashi, Pain, and Obito to form the strongest lewd ninja squad. Accept various missions and claim rewards upon completion. Play Naruto Desire Special and become the ultimate Hokage. 1. You can also form your own ninja village and battle against others to bring glory and victory to your village. 2. Besides training and equipping your female ninjas, the game also offers brand-new social features. 3. You can interact with other players, make new friends, and build your own harem path. These interactions and communications provide additional in-game resources and rewards.",
+    "notFound": "Sorry~ This game was not found!",
+    "noDetails": "There are no more details available for this game~!"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "hotFreeGames": "Popular Free Games",
+    "appStore": "Download from App Store",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "contact": "Contact Us",
+    "business": "Business Cooperation",
+    "faq": "Frequently Asked Questions"
+  },
+  "notFound": {
+    "message": "Page Not Found"
+  },
+  "iosDownload": {
+    "download": {
+      "title": "Download",
+      "subtitle": "How to Download the Game on iOS Devices",
+      "content": "Use an iOS device or mobile phone to directly click [Download Game] and follow the on-screen instructions for installation. If direct download is not possible, please try using [IPA Download] and follow the installation steps.",
+      "btn": "Download Game"
+    },
+    "ipa": {
+      "title": "IPA",
+      "subtitle": "Adjustments to iOS Installation Methods",
+      "content1": "Due to Apple policy changes affecting the original mobile download service, our team is actively seeking solutions to restore the service as soon as possible. For now, players can install the game on a computer using a personal certificate method.",
+      "content2": "Applications installed using an Apple ID signature are valid for 7 days. If you see 'App can no longer be used' after 7 days, you can re-download it using the same Apple ID.",
+      "btn": "Download IPA Game Installation Package"
+    },
+    "steps": {
+      "title": "Installation Steps",
+      "content1": "1. Download iTunes from Apple's official website and ensure it is linked to your iDevice (do not use the Microsoft Store version of iTunes).",
+      "content2": "2. Install the latest version of Sideloadly on your computer. Download link:",
+      "content3": "3. View installation tutorials (video steps available).",
+      "btn": "Official Download"
+    },
+    "questions": {
+      "title": "Q&A",
+      "content": "Using an Apple ID signature, also known as a 'personal certificate,' here are some common issues encountered when signing an IPA file with Sideloadly:",
+      "question1": "Why do I see the message 'Developer Mode must be enabled' when opening the app?",
+      "answer1": "If your device is running iOS 16, go to Settings > Privacy & Security, scroll to the bottom, and enable Developer Mode. After enabling it, restart your device, and then try opening the app again.",
+      "question2": "Which operating systems support Sideloadly?",
+      "answer2": "Sideloadly runs on Windows 7, 8, 10, and 11. For optimal performance, Windows 10 or later is recommended. It also runs on macOS 10.12 Sierra and later, with macOS Catalina, Big Sur, Monterey, or later recommended for best performance.",
+      "question3": "Why doesn't Sideloadly detect my device?",
+      "answer3": "If this happens, restart your PC, open iTunes while your device is connected, and ensure you tap 'Trust' on the popup from your iDevice. Then, open Sideloadly again. If the issue persists, try uninstalling and reinstalling iTunes.",
+      "question4": "Do I need to jailbreak my device to install signed apps?",
+      "answer4": "No. Whether using a certificate signature or an Apple ID signature, jailbreaking is not required for installation.",
+      "question5": "Do I need to disable two-factor authentication on my Apple ID for signing?",
+      "answer5": "No. You can sign IPA files whether two-factor authentication is enabled or not. However, if two-factor authentication is enabled, you will need to verify your Apple ID the first time, but not for subsequent uses.",
+      "question6": "How long is the signed app valid?",
+      "answer6": "IPA files signed with a certificate will work until the certificate expires. If the certificate is revoked before expiration, the app will no longer open ('signature revoked'). Apps installed using an Apple ID signature are valid for 7 days. After 7 days, you can re-download the app using the same Apple ID.",
+      "question7": "How many apps can be installed?",
+      "answer7": "On iOS 7, 8, and 9, you can install unlimited apps on your device. However, free developer accounts have limitations. On iOS 10, 11, 12, 13, 14, and later, only three apps can be installed at the same time."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "first": {
+      "title": "Article 1: Terms of Service",
+      "content1": "1. OCG GAME establishes the Terms of Service for this site and provides operational services to users in accordance with these terms (hereinafter referred to as 'this service').",
+      "content2": "2. In addition to the Terms of Service, this site may establish additional terms for specific services (hereinafter referred to as 'individual terms'). In the event of any inconsistency between the Terms of Service and the individual terms, the individual terms shall take precedence.",
+      "content3": "3. Unless otherwise specified, the individual terms, the help pages of this service, the guide pages, and other explanatory pages related to this service shall be considered part of the Terms of Service and collectively referred to as the Terms of Service.",
+      "content4": "4. 'User' or 'You,' also referred to as 'Member,' refers to a natural person who uses and enjoys the game products and services provided by OCG GAME and is a contracting party to these Terms of Service.",
+      "content5": "5. By using this service, you are deemed to have agreed to the Terms of Service.",
+      "content6": "6. You confirm that you are at least 18 years old in the jurisdiction where you access this website and that you have full legal capacity to comply with these terms. If you are under 18 years old, you must immediately stop using this service.",
+      "content7": "7. You agree and represent that your jurisdiction does not prohibit receiving or viewing adult content.",
+      "content8": "8. Please read these terms carefully before using this service. By using this service, you accept and agree to comply with these terms and our Privacy Policy. If you do not agree to the Terms of Service or the Privacy Policy, you must immediately stop using this service."
+    },
+    "second": {
+      "title": "Article 2: Changes to the Terms",
+      "content1": "1. This site may modify the Terms of Service at any time without prior notice if deemed necessary.",
+      "content2": "2. The revised Terms of Service will take effect when published on this website. By continuing to use this service after the changes, you are deemed to have agreed to the revised terms."
+    },
+    "third": {
+      "title": "Article 3: Methods of Notifying Users and User Communication",
+      "content1": "1. This site may contact users through email, website notifications, or other methods deemed appropriate by this site.",
+      "content2": "2. When notifications are sent via email, the time the email is sent shall be considered the time the user has received the notification.",
+      "content3": "3. When notifications are published on the website, the time they are posted shall be considered the time the user has received the notification.",
+      "content4": "4. Users must use the methods designated by this site for contacting this site."
+    },
+    "fourth": {
+      "title": "Article 4: User Registration",
+      "content1": "1. Users who wish to use this service must register in accordance with the methods specified by this site.",
+      "content2": "2. The adult services within this service are only available to users who are 18 years or older."
+    },
+    "fifth": {
+      "title": "Article 5: User Accounts and Passwords",
+      "content1": "1. Users are responsible for managing their own accounts and passwords. This site is not responsible for any unauthorized use by third parties.",
+      "content2": "2. Users may not provide, transfer, or lend their accounts and passwords to third parties.",
+      "content3": "3. If this site receives an account ID and password and the service is used, it will be deemed that the account holder has used the service, and all consequences will be attributed to that user.",
+      "content4": "4. If a user suspects that their account or password has been disclosed to or used by a third party, they must notify this site and follow its instructions."
+    },
+    "sixth": {
+      "title": "Article 6: Mobile ID Authentication",
+      "content1": "1. Users who register with mobile ID authentication are responsible for strictly managing their mobile ID and related information. This site is not responsible for unauthorized use by third parties.",
+      "content2": "2. If this site receives a registered mobile ID and the service is used, it will be deemed that the mobile ID holder has used the service, and all consequences will be attributed to that user.",
+      "content3": "3. If a user loses the registered mobile device or suspects that their mobile ID is being used by a third party, they must notify this site and follow its instructions."
+    },
+    "seventh": {
+      "title": "Article 7: Prohibition of Transfers",
+      "content": "User qualifications and the rights and obligations arising from using this service based on such qualifications may not be transferred, sold, lent, inherited, sublicensed, or otherwise disposed of to third parties."
+    },
+    "eighth": {
+      "title": "Article 8: Changes to Registration Information",
+      "content": "This site is not responsible for any damages resulting from a user's failure to update their registered information."
+    },
+    "ninth": {
+      "title": "Article 9: Account Cancellation",
+      "content1": "1. Upon account cancellation, the user will lose their user qualifications and will no longer be able to use this service. Additionally, canceled user qualifications cannot be restored.",
+      "content2": "2. Any outstanding financial obligations or other debts to this site will not be waived due to account cancellation.",
+      "content3": "3. Any unused prepaid balances or virtual currencies issued by this site will become invalid upon account cancellation, except as required by law. This site is not obligated to provide refunds."
+    },
+    "tenth": {
+      "title": "Article 10: Service Usage Environment",
+      "content1": "1. Users must pay all costs associated with using this service, including service fees, product purchases, shipping fees, and other applicable charges (hereinafter referred to as 'consideration'), using the payment methods designated by this site.",
+      "content2": "2. Users may make payments through payment providers designated by this site, such as credit card companies, electronic money providers, or mobile network operators (hereinafter referred to as 'payment providers').",
+      "content3": "3. Using this service via proxy servers, VPN servers, or similar means may result in the service being unavailable."
+    },
+    "eleventh": {
+      "title": "Article 11: User Responsibility",
+      "content1": "1. If a user encounters a dispute with a third party while using this service, the user shall bear the responsibility and costs required to resolve the dispute.",
+      "content2": "2. If a user causes harm to a third party while using this service, the user shall be responsible for the damages and costs required for compensation."
+    },
+    "twelfth": {
+      "title": "Article 12: Payment",
+      "content1": "1. This site establishes the Terms of Service and provides operational services to users in accordance with these terms (hereinafter referred to as 'this service').",
+      "content2": "2. In addition to the Terms of Service, this site may establish additional terms for specific services (hereinafter referred to as 'individual terms'). In the event of any inconsistency between the Terms of Service and the individual terms, the individual terms shall take precedence.",
+      "content3": "3. Users must comply with the terms established by the payment service provider and enter into an agreement with the payment provider. If a dispute arises between the user and the payment provider, the user shall be responsible for resolving the dispute, and this site bears no responsibility.",
+      "content4": "4. Any payment processing fees (limited to those designated by this site) shall be borne by the user.",
+      "content5": "5. Regardless of the reason, users shall not request a refund for any payments made to this site."
+    },
+    "thirteenth": {
+      "title": "Article 13: Prohibited Conduct",
+      "content1": "1. The following behaviors are prohibited when using this service.",
+      "content2": "(1) Actions that infringe upon the copyrights, trademarks, design rights, patents, utility models, or other intellectual property rights of this site or third parties.",
+      "content3": "(2) Actions that violate the property rights, portrait rights, publication rights, personal rights, reputation, or privacy of this site or third parties.",
+      "content4": "(3) Actions that violate public order and morality.",
+      "content5": "(4) Actions that violate laws and regulations.",
+      "content6": "(5) Criminal acts, acts that facilitate or promote crimes.",
+      "content7": "(6) Actions that violate laws related to child pornography, pornography, or obscene materials.",
+      "content8": "(7) Acts of intimidation toward others.",
+      "content9": "(8) Actions that cause harm or burdens to this site or third parties.",
+      "content10": "(9) Actions that disrupt the services of this site or third parties.",
+      "content11": "(10) Using this service for purposes that violate its intended use.",
+      "content12": "(11) Circumventing, disabling, or removing content protection measures such as DRM or other technical protections provided within this service.",
+      "content13": "(12) Actions that violate the interests of this site or third parties.",
+      "content14": "(13) Defamation, extortion, or actions that cause disgust toward this site or third parties.",
+      "content15": "(14) Actions that contribute to or encourage criminal activity.",
+      "content16": "(15) Violations of privacy rights, including collecting or disclosing personal information or private details of this site or third parties.",
+      "content17": "(16) Engaging in commercial solicitation, misleading users, or violating election laws.",
+      "content18": "(17) Using this service for profit-making purposes.",
+      "content19": "(18) Using this service for multi-level marketing, pyramid schemes, or related recruitment purposes.",
+      "content20": "(19) Uploading content that cannot be executed outside of this service.",
+      "content21": "(20) Harassment that is not permitted by this site.",
+      "content22": "(21) Uploading content that negatively affects others' emotions.",
+      "content23": "(22) Violating this or other individual terms.",
+      "content24": "(23) Any other actions deemed inappropriate by this site.",
+      "content25": "2. The determination of prohibited conduct shall be made at the discretion of this site, and this site is not obligated to provide explanations.",
+      "content26": "3. If this site determines that a user has engaged in prohibited conduct, it may take any or all of the following actions without prior notice.",
+      "content27": "(1) Restrict the use of this service.",
+      "content28": "(2) Delete the user's registration and account.",
+      "content29": "(3) Take any other necessary measures deemed appropriate by this site.",
+      "content30": "4. This site shall not be liable for any issues arising from the enforcement of this article.",
+      "content31": "5. If a user causes any loss, damage, or expenses (including litigation and attorney fees) due to system failures caused by their actions, this site reserves the right to seek compensation."
+    },
+    "fourteenth": {
+      "title": "Article 14: Restrictions on Service Usage",
+      "content1": "1. This site may impose restrictions on the use of this service under the following circumstances.",
+      "content2": "(1) If there are concerns that a third party is using the user's account ID or password.",
+      "content3": "(2) If there are concerns that the registered information contains false details.",
+      "content4": "(3) If there are concerns regarding delays in payment obligations.",
+      "content5": "(4) If this site is unable to contact the user.",
+      "content6": "(5) Other circumstances deemed necessary by this site.",
+      "content7": "2. This site shall not be responsible for any damages incurred by the user due to these restrictions."
+    },
+    "fifteenth": {
+      "title": "Article 15: Termination of User Qualification",
+      "content1": "1. This site may terminate a user's registration and account without prior notice under the following circumstances.",
+      "content2": "(1) If the registered information contains false details.",
+      "content3": "(2) If there are delays in payments.",
+      "content4": "(3) If the user's credit status deteriorates, making it difficult to continue payments.",
+      "content5": "(4) If the user has previously been notified of a violation and was removed from this site.",
+      "content6": "(5) If this site confirms the death of the user or receives notice from a related party.",
+      "content7": "(6) If this site determines that the user is associated with anti-social groups (such as organized crime groups, members of such groups, related enterprises, etc.).",
+      "content8": "(7) If the user files for bankruptcy or enters civil rehabilitation proceedings.",
+      "content9": "(8) If the user engages in dishonest or obstructive behavior toward this site's operations.",
+      "content10": "(9) Any other circumstances deemed inappropriate by this site.",
+      "content11": "2. This site shall not be responsible for any damages incurred by the user due to these measures.",
+      "content12": "3. A user whose qualification has been revoked under the first clause shall lose all benefits associated with their account and must immediately settle any outstanding debts to this site."
+    },
+    "sixteenth": {
+      "title": "Article 16: Temporary Suspension of Service",
+      "content1": "1. This site may temporarily suspend the provision of this service under the following circumstances.",
+      "content2": "(1) Maintenance, inspection, or similar situations related to this service.",
+      "content3": "(2) Occurrence of accidents such as fire or power outages.",
+      "content4": "(3) Occurrence of natural disasters or other extraordinary events.",
+      "content5": "(4) System or network disruptions.",
+      "content6": "(5) Situations where the site is required to temporarily suspend services due to operational reasons.",
+      "content7": "(6) Other situations deemed necessary by this site.",
+      "content8": "2. This site shall not be responsible for any damages incurred by users due to their inability to use this service as a result of the aforementioned measures."
+    },
+    "seventeenth": {
+      "title": "Article 17: Changes, Additions, and Termination of Service",
+      "content1": "1. This site does not guarantee that this service will meet the user's specific purposes or expectations regarding quality, value, or other factors.",
+      "content2": "2. This site may modify, add, or discontinue all or part of the service at any time without bearing any responsibility.",
+      "content3": "3. When making significant modifications, additions, or discontinuations of all or part of this service as specified in the first clause, this site will notify users within an appropriate timeframe. However, urgent or unavoidable situations may be exempt from prior notice."
+    },
+    "eighteenth": {
+      "title": "Article 18: Disclaimer",
+      "content1": "1. This site does not guarantee that this service will meet the user's specific purposes or expectations regarding quality, value, or other factors.",
+      "content2": "2. This site makes no guarantees regarding the completeness, accuracy, reliability, or usefulness of this service.",
+      "content3": "3. This site shall not be liable for any damages incurred as a result of using this service.",
+      "content4": "4. This site shall not be liable for any damages incurred due to a user's inability to use this service.",
+      "content5": "5. If this site contains links to third-party websites, those websites are not managed by this site, and this site bears no responsibility for such links or their content."
+    },
+    "nineteenth": {
+      "title": "Article 19: Intellectual Property Rights",
+      "content1": "1. The copyrights, neighboring rights, trademarks, design rights, and other intellectual property rights of images, sounds, programs, texts, graphics, pictures, designs, trademarks, logos, and all other information provided in this service belong to this site or third parties that have granted authorization to this site.",
+      "content2": "2. Users shall not engage in any actions that infringe upon the rights of this site or third parties related to the provided content."
+    },
+    "twentieth": {
+      "title": "Article 20: Business Transfer",
+      "content": "If this site transfers its business related to this service to a third party, the operational rights and obligations under these Terms of Service, along with the user registration information, will be transferred to the said third party. Users agree to the transfer of their identity, rights, obligations, registration information, and other related data based on these Terms of Service."
+    },
+    "twentyfirst": {
+      "title": "Article 21: Outsourcing",
+      "content1": "1. This site may entrust all or part of its service operations to third parties (including foreign third parties). Users agree to this arrangement.",
+      "content2": "2. Under the preceding clause and in cases deemed necessary by this site, personal information may be provided to third parties. Users also agree to this arrangement."
+    },
+    "twentysecond": {
+      "title": "Article 22: Transfer of Claims",
+      "content1": "1. Users agree and have no objections to the fact that this site may transfer a user's outstanding debt to a third party (hereinafter referred to as the 'Claim Recipient').",
+      "content2": "2. In such cases, users agree to provide the Claim Recipient with all necessary information for debt collection, including their name, address, phone number, and other relevant details.",
+      "content3": "3. In cases specified in clause 1, this site and the Claim Recipient may omit individual notifications or requests for consent regarding the transfer."
+    },
+    "twentythird": {
+      "title": "Article 23: Liability for Damages",
+      "content": "If a user causes damage to this site through their use of this service or related actions, the user shall be responsible for compensating for such damages."
+    },
+    "twentyfourth": {
+      "title": "Article 24: Governing Law and Jurisdiction",
+      "content1": "1. These Terms of Service shall be interpreted in accordance with local laws.",
+      "content2": "2. In the event of a dispute between this site and a user concerning this service or these Terms of Service, the local court shall have exclusive jurisdiction as the court of first instance."
+    },
+    "twentyfifth": {
+      "title": "Article 25: Handling of Personal Information",
+      "content": "This site shall handle users' personal information in accordance with the established 'Privacy Policy.'"
+    },
+    "twentysixth": {
+      "title": "Article 26: Severability",
+      "content": "If any provision or part of the Terms of Service is deemed invalid or unenforceable under consumer contract laws or other legal regulations, the remaining provisions of the Terms of Service shall remain valid and enforceable."
+    },
+    "twentyseventh": {
+      "title": "Article 27: Collaboration with External Services",
+      "content1": "1. Users may use accounts from third-party services designated by this site (hereinafter referred to as 'external services'). The operators of these external services are hereinafter referred to as 'external service operators.' User registration in accordance with Article 4 must follow the procedures specified by this site (hereinafter referred to as 'collaboration procedures').",
+      "content2": "2. By proceeding with the collaboration procedures, users agree to provide this site with relevant information (hereinafter referred to as 'external service information') from their external service accounts, which will be displayed during the registration process.",
+      "content3": "3. Personal information obtained by this site, including external service information, shall be handled in accordance with this site's 'Privacy Policy.'",
+      "content4": "4. Registration, usage (including login and account deactivation), and other activities related to external service accounts must comply with the terms set forth by the external service operators.",
+      "content5": "5. Users are responsible for managing their external service accounts and login information.",
+      "content6": "6. If a user's improper handling, loss, or unauthorized use of an external service account or password results in damages to the user or a third party, the user shall be fully responsible. This site assumes no liability. Additionally, if such an incident causes damage to this site, the user shall compensate this site for all incurred losses.",
+      "content7": "7. Users are solely responsible for using external services. This site is not responsible for any damages resulting from the use of external services, nor for disputes or other issues arising between users and external service operators."
+    },
+    "twentyeighth": {
+      "title": "Article 28: Fees and Payments",
+      "content1": "1. In addition to these Terms of Service, the fees for using OCG GAME and the payment methods shall be based on the payment standards published on the OCG GAME website.",
+      "content2": "2. Users shall bear any transaction fees, taxes, and initial costs associated with purchasing points.",
+      "content3": "3. Regarding point purchases: If OCG GAME does not confirm the activation or continued use of a service within a specified period, preventing the renewal of the contract and necessary payment, it will be considered that the user does not intend to renew, and the contract will be terminated.",
+      "content4": "4. If OCG GAME is unable to process a payment authorization from a user's credit card or other payment provider, the user shall still be obligated to pay the full amount due to OCG GAME.",
+      "content5": "5. Users who authorize OCG GAME to charge their designated credit card shall be deemed to have granted permission for the credit card to be used for all charges related to their OCG GAME service during the contract period until the user cancels the paid service and terminates the contract.",
+      "content6": "6. OCG GAME may modify payment standards, payment service content, and related terms without prior notice to users. Users shall be deemed to have agreed to the revised terms. The updated payment standards shall take effect upon the next renewal of the payment service contract.",
+      "content7": "7. If a user fails to pay their obligations under these terms within the specified period, they must pay OCG GAME the prescribed late payment interest from the day after the due date until the payment is settled.",
+      "content8": "8. Users must make payments using the methods designated by OCG GAME. OCG GAME is not responsible for any losses incurred due to payments made using unauthorized methods or due to user-related issues.",
+      "content9": "9. Users agree not to cancel the payment service during the contract period.",
+      "content10": "10. Regardless of the reason, users may not request a refund for purchased points or paid membership services.",
+      "content11": "11. If OCG GAME receives a refund request from a credit card provider, the relevant account will be immediately suspended."
+    },
+    "twentyninth": {
+      "title": "Article 29: About Points",
+      "content1": "OCG GAME points (hereinafter referred to as 'points') are a value-added system provided by OCG GAME, allowing users to access certain additional services.",
+      "content2": "1. Users may use points to pay for services permitted under the OCG GAME website's terms.",
+      "content3": "2. Points are valid only during the usage period of the associated OCG GAME ID.",
+      "content4": "3. There is no guarantee that points will be applicable to future services or benefits. If service content, benefits, or system settings change, causing modifications or invalidation of points, OCG GAME does not guarantee continued usability of the user's held points.",
+      "content5": "4. The information displayed regarding a user's points (balance, usage time, applicable benefits, etc.) is for reference only and does not guarantee actual service availability or eligibility for benefits.",
+      "content6": "5. Benefits offered by partner companies are subject to their respective terms and conditions."
+    },
+    "thirtieth": {
+      "title": "Article 30: Prohibited Use of Points",
+      "content1": "Users who violate the following prohibited actions may have their accounts suspended, their points invalidated, or other necessary actions taken by OCG GAME. If such violations result in damages to OCG GAME or third parties, the offending user shall be responsible for compensation. The following actions are strictly prohibited:",
+      "content2": "1. Violating or attempting to violate any prohibited actions specified in these Terms of Service.",
+      "content3": "2. Acquiring points through unauthorized means not designated by OCG GAME.",
+      "content4": "3. Transferring, sharing, lending, gifting, or merging points with another user's account or different IDs by means not approved by OCG GAME.",
+      "content5": "4. Acquiring points through unauthorized methods, including purchasing them through third parties not designated by OCG GAME."
+    },
+    "thirtyfirst": {
+      "title": "Article 31: Invalidation, Reduction, and Cancellation of Points",
+      "content1": "If any of the following circumstances occur, OCG GAME may, without prior notice, invalidate points. Additionally, if there is suspicion of improper activity, OCG GAME may restrict the use, purchase, or exchange of points. Invalidated points cannot be refunded or exchanged.",
+      "content2": "1. If illegal or improper actions are found.",
+      "content3": "2. If there is a violation of these Terms of Service or other terms established by OCG GAME.",
+      "content4": "3. If the user's account is suspended.",
+      "content5": "4. If points were acquired through unauthorized means not designated by OCG GAME.",
+      "content6": "5. If the user cancels their OCG GAME membership.",
+      "content7": "6. If OCG GAME determines that the user's points should be canceled for any other reason."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "first": {
+      "title": "Scope of the Privacy Protection Policy",
+      "content": "The eligibility of users on this site, as well as the rights and obligations associated with using this service based on user eligibility, may not be transferred, sold, rented, inherited, licensed, or otherwise disposed of to third parties. The privacy protection policy does not apply to individuals who do not use OCG GAME services, nor to individuals or organizations unrelated to OCG GAME services."
+    },
+    "second": {
+      "title": "Collection and Use of Information",
+      "content1": "The personal information submitted by users to OCG GAME is limited to the minimum necessary information required for using OCG GAME services.",
+      "content2": "OCG GAME automatically reads and records users' IP addresses, cookie information, visited pages, mobile device information, and computer environment details from the browser or application used by the user.",
+      "content3": "OCG GAME requests personal information from users for the following purposes:",
+      "content4": "1. To improve the quality of OCG GAME services.",
+      "content5": "2. To provide users with the latest updates and notifications from OCG GAME.",
+      "content6": "3. To contact users when necessary.",
+      "content7": "4. To provide users with a more comfortable user experience."
+    },
+    "third": {
+      "title": "Disclosure of Information",
+      "content1": "OCG GAME will not sell or rent users' personal information to any party.",
+      "content2": "In the following cases, OCG GAME may provide users' personal information to government agencies, other individuals, or companies:",
+      "content3": "1. When required by legal procedures from judicial authorities, the police, or other competent authorities.",
+      "content4": "2. When there is a threat to life or property, or when deemed urgently necessary.",
+      "content5": "3. When sharing personal information is essential to providing users with required services.",
+      "content6": "4. When disclosing personal information to companies entrusted by OCG GAME to provide the required services. (These companies are not authorized to use the provided personal information for any purpose other than offering products or services.)",
+      "content7": "5. When users violate OCG GAME's terms of use or when necessary to protect OCG GAME's rights, property, or services."
+    },
+    "fourth": {
+      "title": "Use of Cookies",
+      "content1": "To protect users' privacy and security, accounts will be password protected.",
+      "content2": "OCG GAME will use standard SSL security systems when necessary to ensure the safe transmission of data."
+    },
+    "fifth": {
+      "title": "Revisions to the Privacy Protection Policy",
+      "content1": "OCG GAME may modify parts or all of the privacy protection policy from time to time. (In the case of significant changes, a notice will be posted on the OCG GAME website.)"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "For any business cooperation, feel free to contact us.",
+    "copy": "Copy",
+    "copied": "Copied"
+  },
+  "business": {
+    "title": "Business Cooperation",
+    "subtitle": "For any business cooperation, feel free to contact us.",
+    "copy": "Copy",
+    "copied": "Copied"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "Q1": "What can I do with an OCG GAME account?",
+    "A1": "Once you register an account, you can use it to play all games available on OCG GAME.",
+    "Q2": "What should I do if I lose my quick login account password?",
+    "A2": "Since quick login is a simple registration and login method, if you lose your quick login account details, we may not be able to verify or recover your account. We strongly recommend that players take a screenshot of their account and password information after registering to secure their access.",
+    "Q3": "Do I need to pay to play OCG GAME games?",
+    "A3": "Playing OCG GAME is generally free, but some in-game items and platform-wide points may require players to top up.",
+    "Q4": "I can't log into the game. What should I do?",
+    "A4": "During maintenance periods, login issues may occur. Please check whether your login attempt falls within a scheduled maintenance period. If not, try the following: 1. Close and restart the game. 2. Check your internet connection. 3. Clear your device's cache files. 4. If it's a downloadable game, uninstall and reinstall the game after noting your account details. If the issue persists, go to the 'Member Center' and select 'Contact Customer Support,' providing your email and relevant details. We will review and respond as soon as possible.",
+    "Q5": "What are the system requirements?",
+    "A5": "OCG GAME offers both PC and mobile versions of its games. System requirements may vary by game, so please refer to each game's page for specific details.",
+    "Q6": "What payment methods are available?",
+    "A6": "We offer multiple payment methods, including UnionPay, Alipay, credit cards, convenience store payments, ATMs, point cards, online banking, and PayPal. You can check available payment options on the top-up page after logging into OCG GAME. We plan to introduce additional payment methods in the future for more convenience.",
+    "Q7": "What should I do if my purchase of items or points fails?",
+    "A7": "After making a payment, there may be a short delay before virtual goods appear in your account. Please refresh the page after a few minutes. If the items or points do not appear within 1-2 business days, contact customer support with your platform player ID, in-game nickname, and proof of successful payment for further investigation.",
+    "Q8": "What if I am charged twice for the same transaction?",
+    "A8": "If you experience duplicate charges, please contact customer support immediately with your platform player ID, in-game nickname, and proof of successful payment. We will investigate and refund any excess charges.",
+    "Q9": "Can I get a refund?",
+    "A9": "Purchased game items and points are non-refundable.",
+    "Q10": "How do I top up my account?",
+    "A10": "Log into your account, go to 'Member Center' -> 'Point Inquiry' -> 'Top-Up,' and select your preferred payment method. Follow the specific payment instructions for completion.",
+    "Q11": "How do I use points?",
+    "A11": "Once you have successfully topped up your points, you can check your balance in 'Member Center' -> 'Point Inquiry.' You can use these points to purchase in-game items. 1 point = 1 CNY.",
+    "Q12": "How do I unban my account?",
+    "A12": "If your account is banned and you cannot log in, go to 'Contact Us,' copy the customer support email, and send an email with your account details for assistance."
+  },
+  "news": {
+    "title": "Latest News",
+    "error": "Error",
+    "tryAgain": "Retry",
+    "loading": "Loading...",
+    "noNews": "No news found",
+    "backToList": "Back to List"
+  },
+  "pagination": {
+    "firstPage": "First Page",
+    "prevPage": "Previous Page",
+    "nextPage": "Next Page",
+    "lastPage": "Last Page",
+    "the": "The",
+    "page": "Page",
+    "total": "Total of"
+  },
+  "gift": {
+    "title": "Game Gift Pack",
+    "receive": "Claim",
+    "received": "Claimed",
+    "expired": "Expired",
+    "error": "Error",
+    "tryAgain": "Please try again",
+    "validityPeriod": "Validity Period"
+  },
+  "modal": {
+    "title": "Claim Successful",
+    "content": "Congratulations! You've successfully claimed it. Please click to copy!",
+    "code": "Card Number",
+    "copy": "Copy",
+    "confirm": "Confirm"
+  },
+  "member": {
+    "title": "Member Center",
+    "count": "Points Inquiry",
+    "remainingPoints": "Remaining Points",
+    "orderNumber": "Order Number",
+    "success": "Paid",
+    "processing": "Processing",
+    "failed": "Failed",
+    "rechargeAmount": "Top-up",
+    "points": "Points",
+    "menu": {
+      "recharge": "Top Up",
+      "checkPoints": "Check Points",
+      "customerService": "Contact Support",
+      "myCertificates": "My Certificates",
+      "changePassword": "Change Password",
+      "myBookings": "My Bookings"
+    },
+    "recharge": "Recharge Points",
+    "dividend": "Remaining Bonus",
+    "maturityDividend": "Bonus expiring within 30 days"
+  },
+  "rechargeModal": {
+    "title": "Top-up Order Confirmation",
+    "type": "Payment Method",
+    "amount": "Top-up Amount",
+    "points": "Received Points",
+    "thinking": "Think Again",
+    "send": "Submit",
+    "alreadyConfirmed": "Confirmation Submitted",
+    "hint1": "If the payment screen doesn't appear",
+    "hint2": "Please check if the browser blocked the popup window",
+    "confirm": "Confirm"
+  },
+  "recharge": {
+    "hint1": "Having trouble with top-up? Please go to",
+    "contact": "Customer Support",
+    "hint2": "Our representative will assist you",
+    "dividend": "Bonus",
+    "rechargeFailed1": "❌ Recharge failed:",
+    "rechargeFailed2": "Recharge failed, please try again later.",
+
+    "amount": {
+      "title": "Please select a top-up amount",
+      "hint": "If you're using Alipay and the QR code doesn't appear after clicking Confirm, try enabling VPN and try again!",
+      "pay": "Pay",
+      "availablePoints": "Redeemable Points",
+      "confirm": "Confirm"
+    }
+  },
+  "complaint": {
+    "processed": "Resolved",
+    "processing": "Ongoing",
+    "pending": "Pending",
+    "recharge": "Recharge Issue",
+    "game": "Game Issue",
+    "function": "Function Issue",
+    "other": "Other Issue",
+    "title": "Contact Support",
+    "subtitle1": "Report a Problem",
+    "subtitle2": "Issue Category",
+    "defaultSelector": "Please select an issue category",
+    "subtitle3": "Describe the Issue",
+    "upload": "Upload Images (up to 5)",
+    "submit": "Submit",
+    "submitSuccess": "Submitted Successfully!",
+    "back": "Back",
+    "placeholderQues": "Please describe your issue",
+    "placeholder": "Type a message",
+    "imgFailed": "Image upload failed. Please try again later.",
+    "msgFailed": "Message failed to send. Please try again later.",
+    "defaultBotMsg": "Hello dear player, we're connecting you to a support agent. Please wait a moment."
+  },
+  "verification": {
+    "title": "My Credentials",
+    "subtitle": "Please take a screenshot and keep your account credentials safe",
+    "note": "Why should I save my account credentials?",
+    "tip": "If you lose your account, you can recover it by uploading or scanning your credentials under Forgot Password ⭢ Credential Recovery"
+  },
+  "changePassword": {
+    "title": "Change Password",
+    "username": "Username",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "enterCurrentPassword": "Please enter your current password",
+    "enterNewPassword": "Please enter a new password",
+    "confirmPassword": "Re-enter New Password",
+    "confirmNewPassword": "Please confirm your new password",
+    "saving": "Saving...",
+    "confirmBtn": "Confirm",
+    "noId": "❌ Unable to retrieve user information, please log in again.",
+    "noUserId": "❌ Unable to identify user, please log in again.",
+    "noSamePwd": "❌ New password and confirmation do not match.",
+    "fillAll": "❌ Please fill in all required fields.",
+    "needLength": "❌ New password must be at least 6 characters long.",
+    "currentError": "❌ Current password is incorrect. Please try again.",
+    "changeSuccess": "✅ Password changed successfully!",
+    "changeFailed": "❌ Failed to change password:",
+    "noAccount": "❌ Account does not exist. Please try again.",
+    "changeFailed2": "❌ Password change failed. Please try again later."
+  },
+  "reserve": {
+    "title": "My Reservations"
+  },
+  "ageGate": {
+    "title": "Are you over 18?",
+    "content1": "This website may contain adult content.",
+    "content2": "Do not enter if you are under 18!",
+    "noRemind": "Don't remind me again",
+    "18aged": "Yes, I am over 18 and agree",
+    "under18aged": "No, I am under 18"
+  }
+}

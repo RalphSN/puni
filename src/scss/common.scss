@@ -1,0 +1,326 @@
+@use "./abstracts/variables" as v;
+@use "./abstracts/mixins" as m;
+
+main,
+body {
+  background-color: v.$background-color;
+}
+
+// =====breadcrun=====
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  // background-color: v.$secondary;
+  background-color: v.$background-color;
+  font-size: 1rem;
+  font-weight: bold;
+  color: v.$white;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+
+  .breadcrumb-item {
+    color: v.$white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+
+    .fa-house {
+      color: v.$white;
+      margin-right: 0.5rem;
+    }
+
+    &:hover {
+      color: v.$primary;
+    }
+  }
+
+  .breadcrumb-separator {
+    margin: 0 8px;
+  }
+
+  .breadcrumb-current {
+    color: v.$primary;
+    border-bottom: 1px solid transparent;
+  }
+
+  .home-icon {
+    margin-right: 5px;
+  }
+
+  @media (max-width: 767px) {
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}
+
+// =====FAQ=====
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 2rem auto;
+
+  .faq-item {
+    background-color: v.$greyLight-2;
+    color: v.$black;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid v.$greyLight-1;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .faq-question {
+      @include m.flex-center;
+      justify-content: space-between;
+      width: 100%;
+      cursor: pointer;
+      transition: 0.35s ease;
+      padding: 1rem 2rem;
+      letter-spacing: 0.1rem;
+
+      &:hover {
+        background: v.$white;
+      }
+
+      span {
+        transition: transform 0.3s ease;
+      }
+    }
+
+    .faq-answer-container {
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+      transition: 0.35s ease-in-out;
+    }
+
+    .faq-answer {
+      padding: 1rem;
+      background-color: v.$white;
+      border-top: 1px solid v.$white;
+      letter-spacing: 0.1rem;
+      line-height: 1.5rem;
+
+      transition: 0.35s;
+    }
+
+    &.open {
+      .faq-answer-container {
+        max-height: 50rem;
+        opacity: 1;
+      }
+
+      .faq-answer {
+        visibility: visible;
+        opacity: 1;
+        padding-left: 3rem;
+      }
+
+      .faq-question {
+        background-color: v.$greyLight-1;
+      }
+    }
+  }
+}
+
+// =====分頁區塊=====
+
+.pagination {
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  @include m.flex-center;
+
+  .btn--page {
+    color: v.$white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.2rem 0.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      color: v.$primary;
+    }
+
+    &:disabled {
+      color: v.$gray;
+      cursor: not-allowed;
+    }
+  }
+
+  .page-select {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+
+    .page-select__text {
+      margin: 0 0.5rem;
+      color: v.$greyLight-2;
+    }
+
+    .page-select__select {
+      padding: 0.2rem 0.35rem;
+      border: 1px solid v.$white;
+      border-radius: 5px;
+      background-color: v.$white;
+      font-size: 1rem;
+      cursor: pointer;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .pagination {
+    .page-select {
+      margin: 0;
+    }
+
+    .btn--extrem {
+      display: none;
+    }
+  }
+}
+
+// =======上傳圖片區塊=======
+
+.sortable-images {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+
+  .sortable-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border: 1px solid v.$white;
+    overflow: hidden;
+    position: relative;
+
+    @include m.flex-center;
+
+    img {
+      cursor: pointer;
+      transition: 0.35s;
+      @include m.img-cover;
+
+      &:hover {
+        filter: brightness(80%);
+      }
+    }
+
+    .upload-status {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      border-radius: 50%;
+      width: 30px;
+      aspect-ratio: 1/1;
+      font-size: 20px;
+      z-index: 5;
+      @include m.flex-center;
+    }
+
+    .drag-handle {
+      position: absolute;
+      bottom: -3px;
+      right: -3px;
+
+      font-size: 14px;
+      border-radius: 4px;
+      cursor: grab;
+      user-select: none;
+      transform: rotate(135deg) scaleX(5);
+    }
+
+    .btn--remove {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      cursor: pointer;
+      border: none;
+      color: v.$greyLight-2;
+      background-color: v.$danger;
+      transition: 0.15s;
+      visibility: hidden;
+      z-index: 100;
+
+      @include m.flex-center;
+
+      &:hover {
+        color: v.$white;
+      }
+    }
+
+    &:hover .btn--remove {
+      visibility: visible;
+    }
+  }
+}
+
+.upload-area {
+  width: 100px;
+  height: 100px;
+  border: 1.5px dashed v.$white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: relative;
+  transition: 0.35s;
+  @include m.flex-center;
+
+  &:hover,
+  &.drag-hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}
+
+// Feedback Status
+
+.feedback-item__status {
+  margin-left: 0.5rem;
+  font-weight: 300;
+  @include m.tag-status;
+
+  &.processed {
+    color: v.$white;
+    background-color: v.$success;
+  }
+
+  &.processing {
+    color: v.$black;
+    background-color: v.$warning;
+  }
+
+  &.pending {
+    color: v.$white;
+    background-color: v.$danger;
+  }
+}
+
+//=====Skeleton=====
+
+.skeleton {
+  background: linear-gradient(90deg, #eee, #ddd, #eee);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}

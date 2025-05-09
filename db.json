@@ -1,0 +1,1497 @@
+{
+  "uploads": [
+    {
+      "id": "1aa6",
+      "email": "ralph.sn.2025@gmail.com",
+      "fileName": "手機版官網底圖區塊02.png",
+      "timestamp": "2025-02-27T03:35:52.403Z"
+    },
+    {
+      "id": "3b1a",
+      "email": "ralph.sn.2025@gmail.com",
+      "fileName": "手機版官網底圖區塊01.png",
+      "timestamp": "2025-03-07T08:05:45.088Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "9ede",
+      "username": "ralph341629@gmail.com",
+      "password": "test123",
+      "nickname": "ralph3416",
+      "points": 3200,
+      "dividend": 0,
+      "maturityDividend": 0,
+      "avatar": "default1"
+    },
+    {
+      "id": "a557",
+      "username": "ralph.sn.2025@gmail.com",
+      "password": "test123",
+      "nickname": "ralphsn2025",
+      "points": 5000,
+      "dividend": 0,
+      "maturityDividend": 0,
+      "avatar": "default2"
+    },
+    {
+      "id": "7e0f",
+      "username": "meme",
+      "password": "test123123",
+      "nickname": "meme",
+      "points": 800,
+      "dividend": 0,
+      "maturityDividend": 0,
+      "avatar": "default3"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "userId": "9ede",
+      "time": "2025-01-12 10:00:00",
+      "paymentMethod": "信用卡",
+      "orderId": "Order202501121000009ede1",
+      "points": 1000,
+      "amount": 10,
+      "status": "success"
+    },
+    {
+      "id": "2",
+      "userId": "9ede",
+      "time": "2025-02-15 15:23:45",
+      "paymentMethod": "LINE Pay",
+      "orderId": "Order202502151523459ede2",
+      "points": 2200,
+      "amount": 22,
+      "status": "success"
+    },
+    {
+      "id": "3",
+      "userId": "a557",
+      "time": "2025-02-10 11:12:14",
+      "paymentMethod": "微信-C01",
+      "orderId": "SaintTime20250210111213721872qg9",
+      "points": 1000,
+      "amount": 10,
+      "status": "processing"
+    },
+    {
+      "id": "4",
+      "userId": "a557",
+      "time": "2025-02-10 11:12:04",
+      "paymentMethod": "支付寶-M01",
+      "orderId": "SaintTime20250210111203876782zh9",
+      "points": 5000,
+      "amount": 50,
+      "status": "success"
+    },
+    {
+      "id": "5",
+      "userId": "7e0f",
+      "time": "2025-03-05 09:30:00",
+      "paymentMethod": "街口支付",
+      "orderId": "Order202503050930007e0f1",
+      "points": 1200,
+      "amount": 12,
+      "status": "failed"
+    },
+    {
+      "id": "6",
+      "userId": "7e0f",
+      "time": "2025-03-06 14:18:00",
+      "paymentMethod": "支付寶-M01",
+      "orderId": "Order202503061418007e0f2",
+      "points": 800,
+      "amount": 8,
+      "status": "success"
+    },
+    {
+      "id": "7",
+      "userId": "7e0f",
+      "time": "2025-03-07 17:45:30",
+      "paymentMethod": "LINE Pay",
+      "orderId": "Order202503071745307e0f3",
+      "points": 1000,
+      "amount": 10,
+      "status": "processing"
+    },
+    {
+      "id": "42a5",
+      "userId": "7e0f",
+      "time": "2025-04-15T02:36:27.958Z",
+      "paymentMethod": "支付宝-C01",
+      "orderId": "Order202504150236279587e0f",
+      "points": 100000,
+      "amount": 1000,
+      "status": "processing"
+    },
+    {
+      "id": "a6ff",
+      "userId": "7e0f",
+      "time": "2025-04-15T06:05:21.351Z",
+      "paymentMethod": "支付宝-C01",
+      "orderId": "Order202504150605213517e0f",
+      "points": 15000,
+      "amount": 150,
+      "status": "processing"
+    },
+    {
+      "id": "eff5",
+      "userId": "7e0f",
+      "time": "2025-04-15T06:27:54.454Z",
+      "paymentMethod": "支付宝-C01",
+      "orderId": "Order202504150627544547e0f",
+      "points": 10000,
+      "amount": 100,
+      "status": "processing"
+    },
+    {
+      "id": "5297",
+      "userId": "7e0f",
+      "time": "2025-04-18T19:22:51.780Z",
+      "paymentMethod": "支付宝-C01",
+      "orderId": "Order202504181922517807e0f",
+      "points": 5000,
+      "amount": 50,
+      "status": "processing"
+    },
+    {
+      "id": "890e",
+      "userId": "7e0f",
+      "time": "2025-04-22T08:27:04.950Z",
+      "paymentMethod": "支付宝-P01",
+      "orderId": "Order202504220827049507e0f",
+      "points": 10000,
+      "amount": 100,
+      "status": "processing"
+    },
+    {
+      "id": "81b2",
+      "userId": "7e0f",
+      "time": "2025-05-08T03:38:20.591Z",
+      "paymentMethod": "支付宝-P01",
+      "orderId": "Order202505080338205917e0f",
+      "points": null,
+      "amount": {
+        "amount": 100,
+        "dividend": 0
+      },
+      "status": "processing"
+    },
+    {
+      "id": "3413",
+      "userId": "7e0f",
+      "time": "2025-05-08T05:30:22.381Z",
+      "paymentMethod": "支付宝-P01",
+      "orderId": "Order202505080530223817e0f",
+      "points": null,
+      "amount": {
+        "amount": 300,
+        "dividend": 0
+      },
+      "status": "processing"
+    },
+    {
+      "id": "e01b",
+      "userId": "7e0f",
+      "time": "2025-05-08T05:39:50.989Z",
+      "paymentMethod": "支付宝-P01",
+      "orderId": "Order202505080539509897e0f",
+      "points": null,
+      "amount": {
+        "amount": 300,
+        "dividend": 0
+      },
+      "status": "processing"
+    },
+    {
+      "id": "0f7e",
+      "userId": "7e0f",
+      "time": "2025-05-08T05:43:55.198Z",
+      "paymentMethod": "支付宝-C01",
+      "orderId": "Order202505080543551987e0f",
+      "points": null,
+      "amount": {
+        "amount": 150,
+        "dividend": 0
+      },
+      "status": "processing"
+    },
+    {
+      "id": "8d7b",
+      "userId": "7e0f",
+      "time": "2025-05-08T05:44:12.845Z",
+      "paymentMethod": "支付宝-C01",
+      "orderId": "Order202505080544128457e0f",
+      "points": null,
+      "amount": {
+        "amount": 100,
+        "dividend": 0
+      },
+      "status": "processing"
+    },
+    {
+      "id": "9f82",
+      "userId": "7e0f",
+      "time": "2025-05-08T06:05:27.596Z",
+      "paymentMethod": "支付宝-C01",
+      "orderId": "Order202505080605275967e0f",
+      "points": 5000,
+      "amount": {
+        "amount": 50,
+        "dividend": 0
+      },
+      "status": "processing"
+    },
+    {
+      "id": "1fff",
+      "userId": "7e0f",
+      "time": "2025-05-08T07:24:16.719Z",
+      "paymentMethod": "支付宝-C01",
+      "orderId": "Order202505080724167197e0f",
+      "points": 100000,
+      "amount": 1000,
+      "dividend": 0,
+      "status": "processing"
+    },
+    {
+      "id": "a4f6",
+      "userId": "7e0f",
+      "time": "2025-05-08T07:36:49.623Z",
+      "paymentMethod": "支付宝-P01",
+      "orderId": "Order202505080736496237e0f",
+      "points": 30000,
+      "amount": 300,
+      "dividend": 0,
+      "status": "processing"
+    },
+    {
+      "id": "5748",
+      "userId": "7e0f",
+      "time": "2025-05-08T07:49:37.396Z",
+      "paymentMethod": "GooglePay-P03",
+      "orderId": "Order202505080749373967e0f",
+      "points": 50000,
+      "amount": 500,
+      "dividend": 0,
+      "status": "processing"
+    },
+    {
+      "id": "64fe",
+      "userId": "7e0f",
+      "time": "2025-05-08T08:05:29.030Z",
+      "paymentMethod": "支付宝-C01",
+      "orderId": "Order202505080805290307e0f",
+      "points": 10000,
+      "amount": 100,
+      "dividend": 0,
+      "status": "processing"
+    }
+  ],
+  "news": [
+    {
+      "id": "1",
+      "title": "公司榮獲2025年度最佳創新企業獎",
+      "date": "2025-03-10",
+      "content": "我們很榮幸地宣布，我們公司在年度創新獎項評選中脫穎而出，獲得「2025年度最佳創新企業獎」。這一榮譽體現了我們團隊的創新精神和持續追求卓越的決心。感謝所有員工的辛勤工作和客戶的長期支持。"
+    },
+    {
+      "id": "2",
+      "title": "新產品發布會即將舉行",
+      "date": "2025-03-05",
+      "content": "我們將於下月15日舉行新產品發布會，屆時將推出多款創新產品。本次發布會將在線上線下同步舉行，歡迎客戶、合作夥伴和媒體朋友們踴躍參與。詳情請關注官方網站。"
+    },
+    {
+      "id": "3",
+      "title": "招聘信息：尋找資深前端開發工程師",
+      "date": "2025-02-28",
+      "content": "隨著業務快速增長，我們正在尋找資深前端開發工程師加入我們的團隊。理想候選人應具備扎實的React開發經驗和良好的團隊合作精神。我們提供有競爭力的薪資和優越的工作環境。有意者請將簡歷發送至hr@example.com。"
+    },
+    {
+      "id": "4",
+      "title": "年度客戶滿意度調查結果公布",
+      "date": "2025-02-20",
+      "content": "2024年度客戶滿意度調查結果已出爐！我們很高興地宣布，客戶滿意度達到了93%，比上一年度提高了5個百分點。感謝大家對我們服務的肯定，我們將繼續努力，提供更優質的產品和服務。"
+    },
+    {
+      "id": "5",
+      "title": "系統維護通知",
+      "date": "2025-02-15",
+      "content": "為了提升系統性能，我們計劃於2025年3月20日凌晨2:00-5:00進行系統維護。維護期間，網站和應用可能會出現短暫無法訪問的情況。我們已經採取措施將影響降到最低，敬請諒解。"
+    },
+    {
+      "id": "6",
+      "title": "參與2025技術大會",
+      "date": "2025-02-10",
+      "content": "我們將參加於4月在台北舉行的2025技術大會，屆時將分享我們在AI和雲計算領域的最新研究成果。歡迎蒞臨我們的展位，與我們的技術專家交流。"
+    },
+    {
+      "id": "7",
+      "title": "慶祝公司成立十周年",
+      "date": "2025-02-01",
+      "content": "本月，我們迎來了公司成立十周年的重要里程碑！十年來，我們經歷了許多挑戰和成功，這一切都離不開客戶的支持和團隊的努力。我們將舉辦一系列慶祝活動，敬請期待。"
+    },
+    {
+      "id": "8",
+      "title": "新版用戶手冊上線",
+      "date": "2025-01-25",
+      "content": "我們已經更新了產品用戶手冊，新版手冊提供了更詳細的操作指南和常見問題解答。用戶可以在官網下載最新版本，或通過客服人員索取紙質版。"
+    },
+    {
+      "id": "9",
+      "title": "公益活動：為偏遠地區捐贈電腦",
+      "date": "2025-01-20",
+      "content": "作為企業社會責任的一部分，我們將為偏遠地區學校捐贈100台電腦，並提供相關培訓。這項活動旨在縮小數字鴻溝，幫助更多孩子獲得平等的教育機會。"
+    },
+    {
+      "id": "10",
+      "title": "辦公室搬遷通知",
+      "date": "2025-01-15",
+      "content": "由於業務發展需要，我們將於下月初搬遷至更大的辦公場所。新辦公室位於市中心商務區，交通便利，環境優美。搬遷期間可能會對部分服務造成短暫影響，敬請諒解。"
+    },
+    {
+      "id": "11",
+      "title": "節能環保新倡議",
+      "date": "2025-01-10",
+      "content": "為響應全球氣候變化的挑戰，我們公司啟動了新的節能環保倡議。我們計劃在未來三年內將碳排放減少50%，並投資可再生能源項目。讓我們一起為保護地球做出貢獻！"
+    },
+    {
+      "id": "12",
+      "title": "新年快樂！",
+      "date": "2025-01-01",
+      "content": "值此新年來臨之際，公司全體員工祝願所有客戶和合作夥伴新年快樂，萬事如意！2025年，我們將繼續為您提供卓越的服務和創新的解決方案。"
+    }
+  ],
+  "giftPacks": [
+    {
+      "id": "g1",
+      "title": "海賊：大惡海時代【新手禮包1】",
+      "content": "鑽石*500 貝裡*100000 高級招喚券*10",
+      "startDate": "2025-03-27",
+      "endDate": "2026-03-27",
+      "image": "https://cdn.jsdelivr.net/gh/RalphSN/images@main/sainttime-images/gift01.png"
+    },
+    {
+      "id": "g2",
+      "title": "海賊：大惡海時代【新手禮包2】",
+      "content": "鑽石*888 貝裡*88888 5星海軍五星碎片*50",
+      "startDate": "2025-03-27",
+      "endDate": "2026-03-27",
+      "image": "https://cdn.jsdelivr.net/gh/RalphSN/images@main/sainttime-images/gift02.png"
+    },
+    {
+      "id": "g3",
+      "title": "火影：滅忍考試【新手禮包】",
+      "content": "銀幣*100萬 金幣*200 高級招募券*10 進階丹*500",
+      "startDate": "2025-03-10",
+      "endDate": "2026-03-10",
+      "image": "https://cdn.jsdelivr.net/gh/RalphSN/images@main/sainttime-images/gift03.png"
+    },
+    {
+      "id": "g4",
+      "title": "火影：滅忍考試【進階禮包】",
+      "content": "銀幣*150萬 高級招募券*20 忍者碎片*80",
+      "startDate": "2025-04-01",
+      "endDate": "2026-04-01",
+      "image": "https://cdn.jsdelivr.net/gh/RalphSN/images@main/sainttime-images/gift01.png"
+    },
+    {
+      "id": "g5",
+      "title": "海賊：大惡海時代【VIP禮包】",
+      "content": "鑽石*2000 貝裡*200000 海賊覺醒丹*30",
+      "startDate": "2025-04-02",
+      "endDate": "2026-04-02",
+      "image": "https://cdn.jsdelivr.net/gh/RalphSN/images@main/sainttime-images/gift02.png"
+    },
+    {
+      "id": "g6",
+      "title": "火影：滅忍考試【影級禮包】",
+      "content": "金幣*500 高級招募券*30 S級忍者碎片*100",
+      "startDate": "2025-04-03",
+      "endDate": "2026-04-03",
+      "image": "https://cdn.jsdelivr.net/gh/RalphSN/images@main/sainttime-images/gift03.png"
+    },
+    {
+      "id": "g7",
+      "title": "海賊：大惡海時代【進階新手包】",
+      "content": "鑽石*700 貝裡*120000 航海經驗書*15",
+      "startDate": "2025-04-04",
+      "endDate": "2026-04-04",
+      "image": "https://cdn.jsdelivr.net/gh/RalphSN/images@main/sainttime-images/gift01.png"
+    },
+    {
+      "id": "g8",
+      "title": "火影：滅忍考試【月卡禮包】",
+      "content": "金幣*300 高級招募券*5 查克拉水晶*200",
+      "startDate": "2025-04-05",
+      "endDate": "2026-04-05",
+      "image": "https://cdn.jsdelivr.net/gh/RalphSN/images@main/sainttime-images/gift03.png"
+    },
+    {
+      "id": "g9",
+      "title": "海賊：大惡海時代【週年禮包】",
+      "content": "鑽石*1000 貝裡*150000 限定裝備碎片*10",
+      "startDate": "2025-04-06",
+      "endDate": "2026-04-06",
+      "image": "https://cdn.jsdelivr.net/gh/RalphSN/images@main/sainttime-images/gift02.png"
+    },
+    {
+      "id": "g10",
+      "title": "火影：滅忍考試【精英禮包】",
+      "content": "銀幣*80萬 高級招募券*15 忍者裝備包*3",
+      "startDate": "2025-04-07",
+      "endDate": "2026-04-07",
+      "image": "https://cdn.jsdelivr.net/gh/RalphSN/images@main/sainttime-images/gift03.png"
+    },
+    {
+      "id": "g11",
+      "title": "海賊：大惡海時代【傳奇禮包】",
+      "content": "鑽石*3000 貝裡*300000 傳說海賊碎片*100",
+      "startDate": "2025-04-08",
+      "endDate": "2026-04-08",
+      "image": "https://cdn.jsdelivr.net/gh/RalphSN/images@main/sainttime-images/gift01.png"
+    }
+  ],
+  "claims": [
+    {
+      "id": "1",
+      "userId": "a557",
+      "giftPackId": "g1",
+      "claimedAt": "2025-03-28T01:00:00Z",
+      "cardCode": "VIP666"
+    },
+    {
+      "id": "a4fe",
+      "userId": "7e0f",
+      "giftPackId": "g1",
+      "claimedAt": "2025-04-02T09:59:45.906Z",
+      "cardCode": "VIP888"
+    },
+    {
+      "id": "172d",
+      "userId": "7e0f",
+      "giftPackId": "g2",
+      "claimedAt": "2025-04-02T09:59:48.186Z",
+      "cardCode": "GOLD123"
+    },
+    {
+      "id": "4183",
+      "userId": "7e0f",
+      "giftPackId": "g3",
+      "claimedAt": "2025-04-07T10:00:42.213Z",
+      "cardCode": "VIP575"
+    },
+    {
+      "id": "4464",
+      "userId": "7e0f",
+      "giftPackId": "g1",
+      "claimedAt": "2025-04-07T10:04:40.101Z",
+      "cardCode": "VIP596"
+    },
+    {
+      "id": "9fec",
+      "userId": "7e0f",
+      "giftPackId": "g1",
+      "claimedAt": "2025-04-17T07:17:14.627Z",
+      "cardCode": "VIP506"
+    },
+    {
+      "id": "6598",
+      "userId": "7e0f",
+      "giftPackId": "g1",
+      "claimedAt": "2025-04-24T08:01:27.348Z",
+      "cardCode": "VIP704"
+    },
+    {
+      "id": "8732",
+      "userId": "7e0f",
+      "giftPackId": "g1",
+      "claimedAt": "2025-04-24T08:01:30.060Z",
+      "cardCode": "VIP933"
+    },
+    {
+      "id": "b311",
+      "userId": "7e0f",
+      "giftPackId": "g1",
+      "claimedAt": "2025-04-24T08:01:32.092Z",
+      "cardCode": "VIP707"
+    },
+    {
+      "id": "0cba",
+      "userId": "7e0f",
+      "giftPackId": "g2",
+      "claimedAt": "2025-04-24T09:11:38.619Z",
+      "cardCode": "VIP711"
+    },
+    {
+      "id": "9101",
+      "userId": "7e0f",
+      "giftPackId": "g1",
+      "claimedAt": "2025-04-24T09:11:43.218Z",
+      "cardCode": "VIP113"
+    },
+    {
+      "id": "c46b",
+      "userId": "7e0f",
+      "giftPackId": "g4",
+      "claimedAt": "2025-04-25T05:27:58.462Z",
+      "cardCode": "VIP140"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "currency": "CNY",
+      "id": "C01",
+      "name": "支付宝",
+      "label": "推薦",
+      "icon": "alipay"
+    },
+    {
+      "currency": "CNY",
+      "id": "P01",
+      "name": "支付宝",
+      "icon": "alipay"
+    },
+    {
+      "currency": "CNY",
+      "id": "M01",
+      "name": "支付宝",
+      "icon": "alipay"
+    },
+    {
+      "currency": "CNY",
+      "id": "WX01",
+      "name": "微信",
+      "icon": "wechat"
+    },
+    {
+      "currency": "TWD",
+      "id": "P02",
+      "name": "信用卡",
+      "label": "推薦",
+      "icon": "creditcard"
+    },
+    {
+      "currency": "TWD",
+      "id": "P03",
+      "name": "GooglePay",
+      "icon": "googlepay"
+    },
+    {
+      "currency": "TWD",
+      "id": "P04",
+      "name": "ApplePay",
+      "icon": "applepay"
+    },
+    {
+      "currency": "TWD",
+      "id": "P05",
+      "name": "ATM",
+      "icon": "atm"
+    }
+  ],
+  "paymentAmounts": [
+    {
+      "currency": "CNY",
+      "methodId": "C01",
+      "amounts": [
+        {
+          "amount": 10,
+          "dividend": 0
+        },
+        {
+          "amount": 30,
+          "dividend": 0
+        },
+        {
+          "amount": 50,
+          "dividend": 0
+        },
+        {
+          "amount": 100,
+          "dividend": 0
+        },
+        {
+          "amount": 150,
+          "dividend": 0
+        },
+        {
+          "amount": 300,
+          "dividend": 0
+        },
+        {
+          "amount": 500,
+          "dividend": 0
+        },
+        {
+          "amount": 1000,
+          "dividend": 0
+        },
+        {
+          "amount": 2000,
+          "dividend": 0
+        },
+        {
+          "amount": 3000,
+          "dividend": 500
+        }
+      ],
+      "id": "13b6"
+    },
+    {
+      "currency": "CNY",
+      "methodId": "P01",
+      "amounts": [
+        {
+          "amount": 10,
+          "dividend": 0
+        },
+        {
+          "amount": 50,
+          "dividend": 0
+        },
+        {
+          "amount": 100,
+          "dividend": 0
+        },
+        {
+          "amount": 300,
+          "dividend": 0
+        }
+      ],
+      "id": "f577"
+    },
+    {
+      "currency": "CNY",
+      "methodId": "M01",
+      "amounts": [
+        {
+          "amount": 30,
+          "dividend": 0
+        },
+        {
+          "amount": 100,
+          "dividend": 0
+        },
+        {
+          "amount": 500,
+          "dividend": 0
+        }
+      ],
+      "id": "ba59"
+    },
+    {
+      "currency": "CNY",
+      "methodId": "WX01",
+      "amounts": [
+        {
+          "amount": 50,
+          "dividend": 0
+        },
+        {
+          "amount": 100,
+          "dividend": 0
+        },
+        {
+          "amount": 200,
+          "dividend": 0
+        }
+      ],
+      "id": "7aa3"
+    },
+    {
+      "currency": "TWD",
+      "methodId": "P02",
+      "amounts": [
+        {
+          "amount": 300,
+          "dividend": 0
+        },
+        {
+          "amount": 500,
+          "dividend": 0
+        },
+        {
+          "amount": 1000,
+          "dividend": 0
+        }
+      ],
+      "id": "c8e0"
+    },
+    {
+      "currency": "TWD",
+      "methodId": "P03",
+      "amounts": [
+        {
+          "amount": 150,
+          "dividend": 0
+        },
+        {
+          "amount": 500,
+          "dividend": 0
+        }
+      ],
+      "id": "7a1d"
+    },
+    {
+      "currency": "TWD",
+      "methodId": "P04",
+      "amounts": [
+        {
+          "amount": 300,
+          "dividend": 0
+        },
+        {
+          "amount": 600,
+          "dividend": 0
+        }
+      ],
+      "id": "5eab"
+    },
+    {
+      "currency": "TWD",
+      "methodId": "P05",
+      "amounts": [
+        {
+          "amount": 1000,
+          "dividend": 0
+        },
+        {
+          "amount": 2000,
+          "dividend": 0
+        },
+        {
+          "amount": 3000,
+          "dividend": 0
+        }
+      ],
+      "id": "26f0"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "f001",
+      "userId": "7e0f",
+      "type": "recharge",
+      "content": "錢已扣款但沒到點數",
+      "images": [
+        "blob:http://localhost:5173/05b26aa2-6f42-4b73-b2bd-863200cf0cc0",
+        "blob:http://localhost:5173/babbc00a-e015-4d25-bc49-712b962a7cc6",
+        "blob:http://localhost:5173/fafd7723-618a-4edf-9fda-99774ef18ad9",
+        "blob:http://localhost:5173/5a02fd84-1e8c-4e82-80a0-9a336fa4cc63",
+        "blob:http://localhost:5173/99f972da-4871-49f5-995b-d5197aef222e"
+      ],
+      "timestamp": "2025-04-15T09:30:00Z",
+      "status": "processed",
+      "messages": [
+        {
+          "role": "user",
+          "text": "錢已扣款但沒到點數",
+          "timestamp": "2025-04-15T09:30:00Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-15T09:30:00Z"
+        },
+        {
+          "role": "user",
+          "text": "123",
+          "image": null,
+          "timestamp": "2025-04-18T07:09:43.670Z"
+        },
+        {
+          "role": "user",
+          "text": "",
+          "images": [
+            "blob:http://localhost:5173/05b26aa2-6f42-4b73-b2bd-863200cf0cc0",
+            "blob:http://localhost:5173/fafd7723-618a-4edf-9fda-99774ef18ad9",
+            "blob:http://localhost:5173/babbc00a-e015-4d25-bc49-712b962a7cc6"
+          ],
+          "timestamp": "2025-04-18T10:19:40.773Z"
+        }
+      ]
+    },
+    {
+      "id": "f002",
+      "userId": "7e0f",
+      "type": "function",
+      "content": "點擊確認後沒有反應",
+      "images": [
+        "blob:http://localhost:5173/6080b509-3bb0-44d3-a987-b44f4eb8bdcf",
+        "blob:http://localhost:5173/2cda74d3-da82-433e-b107-fc968c49e4c9",
+        "blob:http://localhost:5173/2c1fbce9-9436-437d-97a7-4b14e7af69ed",
+        "blob:http://localhost:5173/7036e4f1-2b52-47a3-8ac1-1036036dfbea",
+        "blob:http://localhost:5173/6251b8e7-f4c5-4264-8d83-61838c1a7f74"
+      ],
+      "timestamp": "2025-04-16T08:45:00Z",
+      "status": "processing",
+      "messages": [
+        {
+          "role": "user",
+          "text": "點擊確認後沒有反應",
+          "timestamp": "2025-04-16T08:45:00Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-16T08:45:00Z"
+        },
+        {
+          "role": "user",
+          "text": "",
+          "images": [
+            "blob:http://localhost:5173/d8be9de6-9c55-41f9-8044-ab588c776659",
+            "blob:http://localhost:5173/67203140-2c71-4fe4-b023-babc26d51946"
+          ],
+          "timestamp": "2025-04-18T08:07:38.717Z"
+        },
+        {
+          "role": "user",
+          "text": "",
+          "images": [
+            "blob:http://localhost:5173/6bd21b62-3297-40a9-8e21-1b964764889b",
+            "blob:http://localhost:5173/63f0e7fb-0e35-4d4e-b65f-469c9e026fcb"
+          ],
+          "timestamp": "2025-04-18T08:15:37.437Z"
+        },
+        {
+          "role": "user",
+          "text": "",
+          "images": [
+            "blob:http://localhost:5173/6bd21b62-3297-40a9-8e21-1b964764889b",
+            "blob:http://localhost:5173/c09c2d65-4a6c-4efb-a162-71cfd7401e92",
+            "blob:http://localhost:5173/2c1fbce9-9436-437d-97a7-4b14e7af69ed",
+            "blob:http://localhost:5173/2b26fc8e-27ed-4139-8260-ce4caec29bbf",
+            "blob:http://localhost:5173/76298781-5f41-437e-ad8b-564f292503f0"
+          ],
+          "timestamp": "2025-04-18T08:21:03.381Z"
+        },
+        {
+          "role": "user",
+          "text": "",
+          "images": [
+            "blob:http://localhost:5173/6080b509-3bb0-44d3-a987-b44f4eb8bdcf",
+            "blob:http://localhost:5173/2cda74d3-da82-433e-b107-fc968c49e4c9",
+            "blob:http://localhost:5173/2c1fbce9-9436-437d-97a7-4b14e7af69ed",
+            "blob:http://localhost:5173/7036e4f1-2b52-47a3-8ac1-1036036dfbea",
+            "blob:http://localhost:5173/6251b8e7-f4c5-4264-8d83-61838c1a7f74"
+          ],
+          "timestamp": "2025-04-21T03:40:47.620Z"
+        },
+        {
+          "role": "user",
+          "text": "",
+          "images": [
+            "blob:http://localhost:5173/6080b509-3bb0-44d3-a987-b44f4eb8bdcf",
+            "blob:http://localhost:5173/2cda74d3-da82-433e-b107-fc968c49e4c9",
+            "blob:http://localhost:5173/2c1fbce9-9436-437d-97a7-4b14e7af69ed",
+            "blob:http://localhost:5173/7036e4f1-2b52-47a3-8ac1-1036036dfbea",
+            "blob:http://localhost:5173/6251b8e7-f4c5-4264-8d83-61838c1a7f74"
+          ],
+          "timestamp": "2025-04-21T03:43:41.524Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/6080b509-3bb0-44d3-a987-b44f4eb8bdcf",
+            "blob:http://localhost:5173/2cda74d3-da82-433e-b107-fc968c49e4c9",
+            "blob:http://localhost:5173/2c1fbce9-9436-437d-97a7-4b14e7af69ed",
+            "blob:http://localhost:5173/7036e4f1-2b52-47a3-8ac1-1036036dfbea",
+            "blob:http://localhost:5173/6251b8e7-f4c5-4264-8d83-61838c1a7f74"
+          ],
+          "timestamp": "2025-04-21T06:36:36.992Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/6080b509-3bb0-44d3-a987-b44f4eb8bdcf",
+            "blob:http://localhost:5173/2cda74d3-da82-433e-b107-fc968c49e4c9",
+            "blob:http://localhost:5173/2c1fbce9-9436-437d-97a7-4b14e7af69ed",
+            "blob:http://localhost:5173/7036e4f1-2b52-47a3-8ac1-1036036dfbea",
+            "blob:http://localhost:5173/6251b8e7-f4c5-4264-8d83-61838c1a7f74"
+          ],
+          "timestamp": "2025-04-21T06:36:38.392Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/6080b509-3bb0-44d3-a987-b44f4eb8bdcf",
+            "blob:http://localhost:5173/2cda74d3-da82-433e-b107-fc968c49e4c9",
+            "blob:http://localhost:5173/2c1fbce9-9436-437d-97a7-4b14e7af69ed",
+            "blob:http://localhost:5173/7036e4f1-2b52-47a3-8ac1-1036036dfbea",
+            "blob:http://localhost:5173/6251b8e7-f4c5-4264-8d83-61838c1a7f74"
+          ],
+          "timestamp": "2025-04-21T06:36:41.800Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/6080b509-3bb0-44d3-a987-b44f4eb8bdcf",
+            "blob:http://localhost:5173/2cda74d3-da82-433e-b107-fc968c49e4c9",
+            "blob:http://localhost:5173/2c1fbce9-9436-437d-97a7-4b14e7af69ed",
+            "blob:http://localhost:5173/7036e4f1-2b52-47a3-8ac1-1036036dfbea",
+            "blob:http://localhost:5173/6251b8e7-f4c5-4264-8d83-61838c1a7f74"
+          ],
+          "timestamp": "2025-04-21T06:36:42.768Z"
+        },
+        {
+          "role": "user",
+          "text": "1212",
+          "timestamp": "2025-04-22T01:02:24.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f003",
+      "userId": "7e0f",
+      "type": "other",
+      "content": "建議增加夜間模式",
+      "images": [
+        "blob:http://localhost:5173/6eb228fe-42ba-46c2-8828-41b512c38147",
+        "blob:http://localhost:5173/f760ba53-3c8e-40e0-bb64-ee2a400b25f3"
+      ],
+      "timestamp": "2025-04-16T09:00:00Z",
+      "status": "pending",
+      "messages": [
+        {
+          "role": "user",
+          "text": "建議增加夜間模式",
+          "timestamp": "2025-04-16T09:00:00Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-16T09:00:00Z"
+        },
+        {
+          "role": "user",
+          "text": "",
+          "images": [
+            "blob:http://localhost:5173/ca5df872-8630-4a02-87cc-e26f60179961",
+            "blob:http://localhost:5173/c482adc8-d42f-4036-b787-05786836f02c"
+          ],
+          "timestamp": "2025-04-18T08:11:31.141Z"
+        },
+        {
+          "role": "user",
+          "text": "",
+          "images": [
+            "blob:http://localhost:5173/6eb228fe-42ba-46c2-8828-41b512c38147"
+          ],
+          "timestamp": "2025-04-18T09:05:31.227Z"
+        },
+        {
+          "role": "user",
+          "text": "",
+          "images": [
+            "blob:http://localhost:5173/6eb228fe-42ba-46c2-8828-41b512c38147",
+            "blob:http://localhost:5173/f760ba53-3c8e-40e0-bb64-ee2a400b25f3"
+          ],
+          "timestamp": "2025-04-18T10:24:49.556Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/6eb228fe-42ba-46c2-8828-41b512c38147",
+            "blob:http://localhost:5173/f760ba53-3c8e-40e0-bb64-ee2a400b25f3"
+          ],
+          "timestamp": "2025-04-21T06:23:12.944Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/6eb228fe-42ba-46c2-8828-41b512c38147",
+            "blob:http://localhost:5173/f760ba53-3c8e-40e0-bb64-ee2a400b25f3"
+          ],
+          "timestamp": "2025-04-21T06:23:13.744Z"
+        },
+        {
+          "role": "user",
+          "text": "77885",
+          "timestamp": "2025-04-22T01:02:33.289Z"
+        },
+        {
+          "role": "user",
+          "text": "我",
+          "timestamp": "2025-05-07T07:25:29.163Z"
+        },
+        {
+          "role": "user",
+          "text": "換行",
+          "timestamp": "2025-05-07T07:25:35.075Z"
+        }
+      ]
+    },
+    {
+      "id": "f95a",
+      "userId": "7e0f",
+      "type": "recharge",
+      "content": "test",
+      "images": [
+        "blob:http://localhost:5173/45f4fb3f-62e7-4320-a9c0-1d0f55e24e36",
+        "blob:http://localhost:5173/5fb52a9d-c405-4b39-af3b-a25970db6481",
+        "blob:http://localhost:5173/6857e88b-d1e2-4ca2-879a-8c22ba9bce19",
+        "blob:http://localhost:5173/9ed940f1-29ea-4b23-b316-7f18eb70a68f",
+        "blob:http://localhost:5173/a65a7d1b-0923-49f5-9573-1396b86368c2"
+      ],
+      "timestamp": "2025-04-17T02:24:16.467Z",
+      "status": "pending",
+      "messages": [
+        {
+          "role": "user",
+          "text": "test",
+          "timestamp": "2025-04-17T02:24:16.467Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-17T02:24:16.467Z"
+        }
+      ]
+    },
+    {
+      "id": "6f7b",
+      "userId": "7e0f",
+      "type": "other",
+      "content": "窩喔喔你是我的花朵",
+      "images": [
+        "blob:http://localhost:5173/9d158738-6e52-4801-ad21-feca8cefb746",
+        "blob:http://localhost:5173/cda12379-d45f-4f9d-9bf9-fdbdfa1e3c5a"
+      ],
+      "timestamp": "2025-04-17T02:34:57.106Z",
+      "status": "pending",
+      "messages": [
+        {
+          "role": "user",
+          "text": "窩喔喔你是我的花朵",
+          "timestamp": "2025-04-17T02:34:57.106Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-17T02:34:57.106Z"
+        },
+        {
+          "role": "user",
+          "text": "",
+          "images": [
+            "blob:http://localhost:5173/9d158738-6e52-4801-ad21-feca8cefb746",
+            "blob:http://localhost:5173/cda12379-d45f-4f9d-9bf9-fdbdfa1e3c5a"
+          ],
+          "timestamp": "2025-04-21T02:59:08.045Z"
+        },
+        {
+          "role": "user",
+          "text": "也許可能可以",
+          "images": [
+            "blob:http://localhost:5173/9d158738-6e52-4801-ad21-feca8cefb746",
+            "blob:http://localhost:5173/cda12379-d45f-4f9d-9bf9-fdbdfa1e3c5a"
+          ],
+          "timestamp": "2025-04-21T03:17:50.198Z"
+        },
+        {
+          "role": "user",
+          "text": "每當",
+          "timestamp": "2025-04-24T09:18:41.634Z"
+        }
+      ]
+    },
+    {
+      "id": "fb7f",
+      "userId": "7e0f",
+      "type": "game",
+      "content": "Erya coivië\"",
+      "images": [
+        "blob:http://localhost:5173/6d83aae2-2e97-4319-936a-ced857b70743",
+        "blob:http://localhost:5173/d07a2c24-0dad-454f-a801-e39661fbfaff",
+        "blob:http://localhost:5173/f9e9b094-ad32-497e-b3e1-ba675c8c4991",
+        "blob:http://localhost:5173/b9d114a4-12b4-4152-a50c-2ccbde3f28fa",
+        "blob:http://localhost:5173/73c3803c-5d60-42e0-aecd-84d2e1362e25"
+      ],
+      "timestamp": "2025-04-17T05:48:19.533Z",
+      "status": "pending",
+      "messages": [
+        {
+          "role": "user",
+          "text": "Erya coivië\"",
+          "timestamp": "2025-04-17T05:48:19.533Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-17T05:48:19.533Z"
+        }
+      ]
+    },
+    {
+      "id": "307c",
+      "userId": "7e0f",
+      "type": "recharge",
+      "content": "測試手機版本",
+      "images": [
+        "blob:http://localhost:5173/5a413775-1bc2-43fa-9f33-6ee1a35618c0",
+        "blob:http://localhost:5173/ebae79bc-84e5-49d7-88c6-5d3ea3d80d8c",
+        "blob:http://localhost:5173/994d9ebb-ae7b-4fba-ab17-9a0ff4c37d18",
+        "blob:http://localhost:5173/2b23a8e4-3de6-4f88-8a98-acaa27aa0989",
+        "blob:http://localhost:5173/3fb5b2dc-6f28-4300-bd2c-1ff40f79d47e"
+      ],
+      "timestamp": "2025-04-17T06:20:07.101Z",
+      "status": "pending",
+      "messages": [
+        {
+          "role": "user",
+          "text": "測試手機版本",
+          "timestamp": "2025-04-17T06:20:07.101Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-17T06:20:07.101Z"
+        },
+        {
+          "role": "user",
+          "text": "如果超級超級長的話呢如果超級超級長的話呢如果超級超級長的話呢如果超級超級長的話呢如果超級超級長的話呢如果超級超級長的話呢如果超級超級長的話呢如果超級超級長的話呢如果超級超級長的話呢如果超級超級長的話呢如果超級超級長的話呢如果超級超級長的話呢如果超級超級長的話呢如果超級超級長的話呢",
+          "timestamp": "2025-04-22T05:34:28.027Z"
+        }
+      ]
+    },
+    {
+      "id": "f335",
+      "userId": "7e0f",
+      "type": "function",
+      "content": "手機板測試",
+      "images": [
+        "blob:http://localhost:5173/9162ae0d-4f9f-4081-afe2-dd37567a6aab",
+        "blob:http://localhost:5173/10126076-8dc0-4699-931b-db6454313c2d",
+        "blob:http://localhost:5173/075b521c-4b80-45d7-9879-89e4206bc2eb",
+        "blob:http://localhost:5173/a2653cc0-ad2d-4713-ab9e-58b418a5ae5a",
+        "blob:http://localhost:5173/5c4d0866-ceb4-45df-a698-bd3e3f89aab7"
+      ],
+      "timestamp": "2025-04-17T06:40:09.816Z",
+      "status": "pending",
+      "messages": [
+        {
+          "role": "user",
+          "text": "手機板測試",
+          "timestamp": "2025-04-17T06:40:09.816Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-17T06:40:09.816Z"
+        },
+        {
+          "role": "user",
+          "text": "你好",
+          "images": [
+            "blob:http://localhost:5173/9162ae0d-4f9f-4081-afe2-dd37567a6aab",
+            "blob:http://localhost:5173/10126076-8dc0-4699-931b-db6454313c2d",
+            "blob:http://localhost:5173/075b521c-4b80-45d7-9879-89e4206bc2eb"
+          ],
+          "timestamp": "2025-04-18T09:28:18.987Z"
+        },
+        {
+          "role": "user",
+          "text": "",
+          "images": [
+            "blob:http://localhost:5173/9162ae0d-4f9f-4081-afe2-dd37567a6aab",
+            "blob:http://localhost:5173/10126076-8dc0-4699-931b-db6454313c2d",
+            "blob:http://localhost:5173/075b521c-4b80-45d7-9879-89e4206bc2eb"
+          ],
+          "timestamp": "2025-04-18T09:56:55.234Z"
+        },
+        {
+          "role": "user",
+          "text": "",
+          "images": [
+            "blob:http://localhost:5173/9162ae0d-4f9f-4081-afe2-dd37567a6aab",
+            "blob:http://localhost:5173/10126076-8dc0-4699-931b-db6454313c2d",
+            "blob:http://localhost:5173/075b521c-4b80-45d7-9879-89e4206bc2eb"
+          ],
+          "timestamp": "2025-04-18T09:56:57.290Z"
+        },
+        {
+          "role": "user",
+          "text": "",
+          "images": [
+            "blob:http://localhost:5173/9162ae0d-4f9f-4081-afe2-dd37567a6aab",
+            "blob:http://localhost:5173/10126076-8dc0-4699-931b-db6454313c2d",
+            "blob:http://localhost:5173/075b521c-4b80-45d7-9879-89e4206bc2eb"
+          ],
+          "timestamp": "2025-04-18T09:56:58.939Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/9162ae0d-4f9f-4081-afe2-dd37567a6aab",
+            "blob:http://localhost:5173/10126076-8dc0-4699-931b-db6454313c2d",
+            "blob:http://localhost:5173/075b521c-4b80-45d7-9879-89e4206bc2eb",
+            "blob:http://localhost:5173/a2653cc0-ad2d-4713-ab9e-58b418a5ae5a"
+          ],
+          "timestamp": "2025-04-21T06:40:12.984Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/9162ae0d-4f9f-4081-afe2-dd37567a6aab",
+            "blob:http://localhost:5173/10126076-8dc0-4699-931b-db6454313c2d",
+            "blob:http://localhost:5173/075b521c-4b80-45d7-9879-89e4206bc2eb",
+            "blob:http://localhost:5173/a2653cc0-ad2d-4713-ab9e-58b418a5ae5a"
+          ],
+          "timestamp": "2025-04-21T06:48:59.247Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/9162ae0d-4f9f-4081-afe2-dd37567a6aab",
+            "blob:http://localhost:5173/10126076-8dc0-4699-931b-db6454313c2d",
+            "blob:http://localhost:5173/075b521c-4b80-45d7-9879-89e4206bc2eb",
+            "blob:http://localhost:5173/a2653cc0-ad2d-4713-ab9e-58b418a5ae5a"
+          ],
+          "timestamp": "2025-04-21T06:49:00.672Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/9162ae0d-4f9f-4081-afe2-dd37567a6aab",
+            "blob:http://localhost:5173/10126076-8dc0-4699-931b-db6454313c2d",
+            "blob:http://localhost:5173/075b521c-4b80-45d7-9879-89e4206bc2eb",
+            "blob:http://localhost:5173/a2653cc0-ad2d-4713-ab9e-58b418a5ae5a"
+          ],
+          "timestamp": "2025-04-21T06:49:01.848Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/298f344c-09a4-4bdd-acad-7c596de9ad99"
+          ],
+          "timestamp": "2025-04-21T07:08:58.031Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/ee9cd821-494f-451a-8f36-6c21394ae8d3",
+            "blob:http://localhost:5173/da30f612-422d-47e3-9661-aeeaa3b246c3"
+          ],
+          "timestamp": "2025-04-21T07:19:35.655Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/8429b9f1-5f3f-435d-a2f7-3c9a2190bd70"
+          ],
+          "timestamp": "2025-04-21T07:19:43.255Z"
+        },
+        {
+          "role": "user",
+          "text": "58",
+          "images": [
+            "blob:http://localhost:5173/13f977c1-f97d-4f57-adb6-38da717c1767"
+          ],
+          "timestamp": "2025-04-21T07:19:57.567Z"
+        },
+        {
+          "role": "user",
+          "text": "ㄍ",
+          "timestamp": "2025-04-21T07:25:43.856Z"
+        },
+        {
+          "role": "user",
+          "images": [
+            "blob:http://localhost:5173/5c4d0866-ceb4-45df-a698-bd3e3f89aab7"
+          ],
+          "timestamp": "2025-04-21T07:26:04.087Z"
+        }
+      ]
+    },
+    {
+      "id": "db27",
+      "userId": "7e0f",
+      "type": "recharge",
+      "content": "test",
+      "images": [
+        "blob:http://localhost:5173/02635b6b-3a73-4d76-aff0-5590d9646e97",
+        "blob:http://localhost:5173/b59b3962-2583-4224-aec8-ac301c178c79"
+      ],
+      "timestamp": "2025-04-21T07:49:14.823Z",
+      "status": "pending",
+      "messages": [
+        {
+          "role": "user",
+          "text": "test",
+          "timestamp": "2025-04-21T07:49:14.823Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-21T07:49:14.823Z"
+        },
+        {
+          "role": "user",
+          "text": "5858",
+          "timestamp": "2025-04-21T07:49:46.998Z"
+        },
+        {
+          "role": "user",
+          "text": "582885",
+          "images": [
+            "blob:http://localhost:5173/f4118d9c-2982-44d4-a34f-af1b71192dd1"
+          ],
+          "timestamp": "2025-04-21T07:50:24.903Z"
+        },
+        {
+          "role": "user",
+          "text": "可也",
+          "timestamp": "2025-04-22T06:02:48.675Z"
+        },
+        {
+          "role": "user",
+          "text": "測測試是",
+          "timestamp": "2025-04-22T06:03:56.970Z"
+        }
+      ]
+    },
+    {
+      "id": "0a52",
+      "userId": "7e0f",
+      "type": "recharge",
+      "content": "eqweq",
+      "images": [
+        "blob:http://localhost:5173/1b18742e-d04b-4c81-aba4-d408a14ff109"
+      ],
+      "timestamp": "2025-04-21T08:07:34.687Z",
+      "status": "pending",
+      "messages": [
+        {
+          "role": "user",
+          "text": "eqweq",
+          "timestamp": "2025-04-21T08:07:34.687Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-21T08:07:34.687Z"
+        },
+        {
+          "role": "user",
+          "text": "789",
+          "timestamp": "2025-04-21T08:29:47.965Z"
+        }
+      ]
+    },
+    {
+      "id": "1fbd",
+      "userId": "7e0f",
+      "type": "other",
+      "content": "tesssst",
+      "images": [
+        "blob:http://localhost:5173/0195838e-4ad0-4f50-b4ba-4d50f9b10814",
+        "blob:http://localhost:5173/11062209-28a7-4799-8bd8-8b5a53585617"
+      ],
+      "timestamp": "2025-04-22T05:28:59.963Z",
+      "status": "pending",
+      "messages": [
+        {
+          "role": "user",
+          "text": "tesssst",
+          "timestamp": "2025-04-22T05:28:59.963Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-22T05:28:59.963Z"
+        }
+      ]
+    },
+    {
+      "id": "c6e0",
+      "userId": "7e0f",
+      "type": "function",
+      "content": "123",
+      "images": [
+        "blob:http://localhost:5173/01b79985-a14d-4074-841f-a5369d6ad7c5",
+        "blob:http://localhost:5173/ecd3a6b7-c160-487a-a73b-f99f7e4bdde1"
+      ],
+      "timestamp": "2025-04-22T08:51:42.311Z",
+      "status": "pending",
+      "messages": [
+        {
+          "role": "user",
+          "text": "123",
+          "timestamp": "2025-04-22T08:51:42.311Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-22T08:51:42.311Z"
+        }
+      ]
+    },
+    {
+      "id": "9e0b",
+      "userId": "7e0f",
+      "type": "recharge",
+      "content": "爛遊戲",
+      "images": [
+        "blob:http://localhost:5173/0de283e7-15f0-4bb2-b577-18bc6c68f96f",
+        "blob:http://localhost:5173/63e235e3-242b-4b01-9b11-ce2cbbc728a1"
+      ],
+      "timestamp": "2025-04-24T09:19:45.947Z",
+      "status": "pending",
+      "messages": [
+        {
+          "role": "user",
+          "text": "爛遊戲",
+          "timestamp": "2025-04-24T09:19:45.947Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-24T09:19:45.947Z"
+        },
+        {
+          "role": "user",
+          "text": "趕快處理",
+          "timestamp": "2025-04-24T09:19:56.612Z"
+        }
+      ]
+    },
+    {
+      "id": "69f3",
+      "userId": "7e0f",
+      "type": "recharge",
+      "content": "儲值失敗",
+      "images": [
+        "blob:http://localhost:5173/ce8a01d1-0fe2-4204-ae27-61d402fc0f70",
+        "blob:http://localhost:5173/bcb32dc9-c4ec-490b-80e0-9084ef160b82",
+        "blob:http://localhost:5173/263a206a-dec9-4bbd-b653-7c9748699ea7",
+        "blob:http://localhost:5173/434ee6b6-ea46-40a5-a4e3-626416d4d69c"
+      ],
+      "timestamp": "2025-04-24T09:20:50.323Z",
+      "status": "pending",
+      "messages": [
+        {
+          "role": "user",
+          "text": "儲值失敗",
+          "timestamp": "2025-04-24T09:20:50.323Z"
+        },
+        {
+          "role": "bot",
+          "text": "尊敬的玩家您好：馬上為您連接客服，您稍微耐心等待。",
+          "timestamp": "2025-04-24T09:20:50.323Z"
+        },
+        {
+          "role": "user",
+          "text": "好",
+          "images": [
+            "blob:http://localhost:5173/263a206a-dec9-4bbd-b653-7c9748699ea7",
+            "blob:http://localhost:5173/434ee6b6-ea46-40a5-a4e3-626416d4d69c"
+          ],
+          "timestamp": "2025-04-24T09:21:16.778Z"
+        }
+      ]
+    }
+  ]
+}
