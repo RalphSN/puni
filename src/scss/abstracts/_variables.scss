@@ -1,15 +1,17 @@
 //colors
 @use "sass:color";
 
+$main-color: #F9B5C4;
 $gate-main: #F9B5C4;
 $checkbox-border: #D9C7F2;
 $checkbox: #B89CDE;
 $checkbox-hover: #C85179;
-$checkbox-font: #E7CBA9;
+$under18-font: #E7CBA9;
 
 $background: #FFF7F0;
 $footer: #F2E5EF;
 $footer-font: #6D5E75;
+
 
 $header-selector: #4A3F55;
 $language: #4A3F55;
@@ -50,7 +52,7 @@ $danger: #dc3545;
 $warning: #ffc107;
 $info: #17a2b8;
 $light: #f0f0f0;
-$dark: #343a40;
+$dark: #4A3F55;
 $gray: gray;
 
 $greyLight-1: #e4ebf5;

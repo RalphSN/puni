@@ -2,7 +2,7 @@
 @use "sass:color";
 
 @mixin page-basic($padding: 1rem 10%, $padding-bottom: 4rem) {
-  background-color: v.$black;
+  background-color: v.$background;
   padding: $padding;
   padding-bottom: $padding-bottom;
   min-height: calc(100vh - 21rem);
@@ -282,7 +282,7 @@ $transition-duration: 0.3s;
 
   /* 目前選中的分頁點 */
   .swiper-pagination-bullet-active {
-    background: v.$aid;
+    background: v.$main-color;
     opacity: 1;
   }
 

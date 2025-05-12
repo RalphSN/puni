@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { useState, useEffect, useRef, useContext } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
@@ -12,6 +12,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import { AuthContext } from "../../../context/AuthContext"; // 使用 AuthContext
+import logo from "../../../assets/images/logo.png";
 import "./Header.scss";
 
 const Header = () => {
@@ -25,8 +26,6 @@ const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
   const dropdownRef = useRef(null);
   const location = useLocation();
-  const imageUrl =
-    "https://cdn.jsdelivr.net/gh/RalphSN/images@main/sainttime-images/logo_sainttime.png";
 
   useEffect(() => {
     const checkMobile = () => {
@@ -146,10 +145,18 @@ const Header = () => {
         </nav>
       )}
       <header className="navbar">
+        {/* 佔位對齊用 */}
+        <button className="hamburger-menu occupied" onClick={handleMenuToggle}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </button>
+
+        {/* Logo */}
         <div className="navbar__container">
-          <div className="navbar__logo">
-            <img src={imageUrl} alt="Logo" className="logo" />
-          </div>
+          <Link className="navbar__logo" to={"/"}>
+            <img src={logo} alt="Logo" className="logo" />
+          </Link>
         </div>
 
         {/* 漢堡選單按鈕（小螢幕才顯示） */}

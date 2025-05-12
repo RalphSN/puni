@@ -1,0 +1,83 @@
+@use "../../../scss/abstracts/variables" as v;
+@use "../../../scss/abstracts/mixins" as m;
+
+.age-gate__container {
+  position: fixed;
+  inset: 0;
+  background-color: v.$gate-main;
+  z-index: 1000;
+  @include m.flex-center;
+
+  .age-gate {
+    background-color: v.$white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    max-width: 300px;
+    width: 90%;
+  }
+
+  .age-gate__title {
+    margin-bottom: 0.5rem;
+  }
+
+  .age-gate__content {
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .no-remind {
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    @include m.flex-center($justify: flex-start);
+
+    .no-remind__checkbox {
+      width: 16px;
+      height: 16px;
+      border: 1px solid v.$checkbox-border;
+      border-radius: 4px;
+      position: relative;
+      appearance: none;
+
+      cursor: pointer;
+      @include m.flex-center;
+
+      &:checked {
+        background-color: v.$checkbox;
+      }
+
+      &:checked::after {
+        content: "✔";
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        left: 3px;
+        top: -3px;
+      }
+    }
+
+    .no-remind__label {
+      cursor: pointer;
+    }
+  }
+
+  .btn--age {
+    margin-top: 1rem;
+    background-color: v.$gate-main;
+    color: v.$white;
+    width: 100%;
+    transition: 0.35s ease-in-out;
+
+    @include m.btn-basic($radius: 15px);
+
+    &:hover {
+      background-color: v.$checkbox-hover;
+      color: v.$white;
+    }
+  }
+
+  .btn--under18aged {
+    background-color: transparent;
+    color: v.$under18-font;
+  }
+}

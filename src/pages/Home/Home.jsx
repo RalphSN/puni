@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -10,6 +10,9 @@ import cardData from "../../components/card/PopularCard/CardPopularData";
 import reserveCardData from "../../components/card/ReserveCard/CardReserveCard";
 import PopularCard from "../../components/card/PopularCard/PopularCard";
 import ReserveCard from "../../components/card/ReserveCard/ReserveCard";
+import ad01 from "../../assets/images/ad01.png";
+import ad02 from "../../assets/images/ad02.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -25,27 +28,45 @@ const Home = () => {
     (_, index) => `${baseUrl}ad0${index + 1}.png`
   );
 
+  const adBannerUrls = [
+    { image: ad01, link: "#" },
+    { image: ad02, link: "#" },
+  ];
+
   return (
     <main>
       <div className="home">
         <div className="home__carousel">
-          <Swiper
-            modules={[Navigation, Pagination, Autoplay]}
-            navigation
-            pagination={{ clickable: true }}
-            autoplay={{ delay: 5000, disableOnInteraction: false }}
-            loop
-          >
-            {coverUrls.map((url, index) => (
-              <SwiperSlide key={index}>
+          <figure className="home__carousel-image__container">
+            <Swiper
+              modules={[Navigation, Pagination, Autoplay]}
+              navigation
+              pagination={{ clickable: true }}
+              autoplay={{ delay: 5000, disableOnInteraction: false }}
+              loop
+            >
+              {coverUrls.map((url, index) => (
+                <SwiperSlide key={index}>
+                  <img
+                    src={`${url}`}
+                    alt={`slide-${index}`}
+                    className="home__carousel-image"
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </figure>
+          <div className="ad-banner">
+            {adBannerUrls.map((ad, index) => (
+              <Link key={index} to={ad.link} className="ad-banner__link">
                 <img
-                  src={`${url}`}
-                  alt={`slide-${index}`}
-                  className="home__carousel-image"
+                  src={ad.image}
+                  alt={`ad-${index}`}
+                  className="ad-banner__img"
                 />
-              </SwiperSlide>
+              </Link>
             ))}
-          </Swiper>
+          </div>
         </div>
         <div className="home__content">
           <div className="home__popular">

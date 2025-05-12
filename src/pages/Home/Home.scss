@@ -7,13 +7,38 @@
   .home__carousel {
     position: relative;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     @include m.home-carousel-setting;
 
-    .home__carousel-image {
-      width: 100%;
+    .home__carousel-image__container {
+      flex: 2;
+      display: flex;
       height: auto;
-      max-height: 500px;
-      object-fit: cover;
+      overflow: hidden;
+
+      .home__carousel-image {
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+        object-fit: cover;
+      }
+    }
+
+    .ad-banner {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+
+      .ad-banner__link {
+        width: 100%;
+
+        .ad-banner__img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
     }
   }
 
@@ -83,7 +108,7 @@
           display: flex;
           align-items: center;
           margin-bottom: 1rem;
-          
+
           &::before {
             content: "";
             display: inline-block;
