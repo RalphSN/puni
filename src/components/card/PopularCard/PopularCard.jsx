@@ -3,13 +3,15 @@ import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import "./PopularCard.scss";
-import "../../../scss/common.scss"
+import "../../../scss/common.scss";
+import appleIcon from "../../../assets/images/icon-apple.png";
+import androidIcon from "../../../assets/images/icon-android.png";
 
 const PopularCard = ({
   id,
   title,
   image,
-  buttonText,
+  // buttonText,
   className = "",
   children,
 }) => {
@@ -32,11 +34,19 @@ const PopularCard = ({
       <div className="card-popular__content">
         <p className="card-popular__title">{t(title)}</p>
         {children}
-        {buttonText && id && (
+        {/* {buttonText && id && (
           <Link to={`/game?id=${id}`} className="btn--play">
             {t(buttonText)}
           </Link>
-        )}
+        )} */}
+        <div className="platform-btns">
+          <Link to={`/game?id=${id}`} className="btn--apple btn--platform">
+            <img src={androidIcon} alt="android icon" className='platform-btns__img'/>
+          </Link>
+          <Link to={`/game?id=${id}`} className="btn--android btn--platform">
+            <img src={appleIcon} alt="apple icon" className='platform-btns__img'/>
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -71,6 +71,20 @@ const cardData = [
     language: ["简体中文"],
     buttonText: "game.play",
   },
+  {
+    id: 6,
+    title: "game.kazekage",
+    image: baseUrl + "/card-image.png",
+    tagKeys: ["action", "card"],
+    url: "/game",
+    platforms: ["ios", "android"],
+    avatar: baseUrl + "/game-images/witch-avatar.png",
+    description: "details.description",
+    introduce: "details.introduce",
+    version: "2.0",
+    language: ["简体中文"],
+    buttonText: "game.play",
+  },
 ];
 
 export default cardData;

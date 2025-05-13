@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -10,9 +11,10 @@ import cardData from "../../components/card/PopularCard/CardPopularData";
 import reserveCardData from "../../components/card/ReserveCard/CardReserveCard";
 import PopularCard from "../../components/card/PopularCard/PopularCard";
 import ReserveCard from "../../components/card/ReserveCard/ReserveCard";
+import NewsPreview from "../../components/news/NewsPreview";
 import ad01 from "../../assets/images/ad01.png";
 import ad02 from "../../assets/images/ad02.png";
-import { Link } from "react-router-dom";
+import titleRight from "../../assets/images/title-right.png";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -46,7 +48,7 @@ const Home = () => {
               loop
             >
               {coverUrls.map((url, index) => (
-                <SwiperSlide key={index}>
+                <SwiperSlide key={`cover-${index}`}>
                   <img
                     src={`${url}`}
                     alt={`slide-${index}`}
@@ -58,7 +60,11 @@ const Home = () => {
           </figure>
           <div className="ad-banner">
             {adBannerUrls.map((ad, index) => (
-              <Link key={index} to={ad.link} className="ad-banner__link">
+              <Link
+                key={`ad-banner-${index}`}
+                to={ad.link}
+                className="ad-banner__link"
+              >
                 <img
                   src={ad.image}
                   alt={`ad-${index}`}
@@ -69,22 +75,51 @@ const Home = () => {
           </div>
         </div>
         <div className="home__content">
-          <div className="home__popular">
-            <h2 className="home__popular-title">{t("home.popularGames")}</h2>
-            <div className="home__popular-grid">
-              {cardData.map((card) => (
-                <PopularCard
-                  key={card.id}
-                  id={card.id}
-                  title={card.title}
-                  image={card.image}
-                  buttonText={card.buttonText}
-                  className={card.className}
-                />
-              ))}
+          <div className="home__main">
+            <div className="home__popular">
+              <div className="home__popular-header">
+                <h2 className="home__popular-title">
+                  {t("home.popularGames")}
+                </h2>
+                <a href="#" className="btn--more-game">
+                  <span className="see-more__text">看更多</span>
+                  <figure className="see-more__container">
+                    <img
+                      src={titleRight}
+                      alt="title-img"
+                      className="see-more__img"
+                    />
+                  </figure>
+                </a>
+              </div>
+              <div className="home__popular-grid">
+                {cardData.map((card) => (
+                  <PopularCard
+                    key={card.id}
+                    id={card.id}
+                    title={card.title}
+                    image={card.image}
+                    buttonText={card.buttonText}
+                    className={card.className}
+                  />
+                ))}
+              </div>
             </div>
-            <div className="more-btn-box">
-              <button className="btn-more">{t("home.more")}</button>
+            <div className="home__news">
+              <div className="home__news-header">
+                <h2 className="home__news-title">最新消息</h2>
+                <a href="#" className="btn--more-game">
+                  <span className="see-more__text">看更多</span>
+                  <figure className="see-more__container">
+                    <img
+                      src={titleRight}
+                      alt="title-img"
+                      className="seee-more__img"
+                    />
+                  </figure>
+                </a>
+              </div>
+              <NewsPreview />
             </div>
           </div>
           <div className="home__side">
@@ -111,7 +146,7 @@ const Home = () => {
                 loop
               >
                 {adUrls.map((url, index) => (
-                  <SwiperSlide key={index}>
+                  <SwiperSlide key={`side-ad-${index}`}>
                     <a href="#" className="home__side-ad-link">
                       <img src={url} alt={`ad-${index}`} />
                     </a>

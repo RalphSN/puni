@@ -8,20 +8,29 @@
     position: relative;
     width: 100%;
     display: flex;
+    align-items: stretch;
+    height: auto;
     flex-wrap: wrap;
+    gap: 2rem;
     @include m.home-carousel-setting;
 
     .home__carousel-image__container {
       flex: 2;
       display: flex;
-      height: auto;
+      height: 500px;
       overflow: hidden;
+      border-radius: 15px;
+
+      .swiper,
+      .swiper-slide {
+        height: 100%;
+      }
 
       .home__carousel-image {
         width: 100%;
-        height: auto;
-        max-height: 500px;
+        height: 500px;
         object-fit: cover;
+        border-radius: 15px;
       }
     }
 
@@ -29,13 +38,19 @@
       flex: 1;
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
+      height: 500px;
+      max-width: 30%;
 
       .ad-banner__link {
         width: 100%;
+        height: 48%;
+        overflow: hidden;
+        border-radius: 15px;
 
         .ad-banner__img {
           width: 100%;
-          height: auto;
+          height: 100%;
           object-fit: cover;
         }
       }
@@ -47,54 +62,84 @@
     padding: 2rem 0;
     color: v.$white;
     font-size: 1.2rem;
+    gap: 2rem;
 
-    .home__popular {
-      flex: 3;
-      margin-right: 2rem;
+    .home__main {
+      flex: 2;
 
-      &-title {
-        display: flex;
-        align-items: center;
-        margin-bottom: 1rem;
+      .home__popular {
+        .home__popular-header {
+          width: 100%;
+          flex-wrap: wrap;
+          border-bottom: 5px solid v.$main-color;
+          padding-bottom: 5px;
+          @include m.flex-center($justify: space-between);
 
-        &::before {
-          content: "";
-          display: inline-block;
-          width: 0.4rem;
-          height: 1.5em;
-          background-color: v.$thirdary;
-          margin-right: 20px;
+          .home__popular-title {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            background-image: url("../../assets/images/title-left.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 70%;
+          }
+        }
+
+        .home__popular-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+          // grid-template-columns: repeat(auto-fit, 18rem);
+          align-items: start;
+          max-width: 100%;
+          gap: 1rem;
+          margin-top: 2rem;
+          padding: 1rem 0;
         }
       }
 
-      .home__popular-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-        // grid-template-columns: repeat(auto-fit, 18rem);
-        align-items: start;
-        max-width: 100%;
-        gap: 2rem;
-        margin-top: 2rem;
-        padding: 1rem 0;
+      .home__news {
+        .home__news-header {
+          width: 100%;
+          flex-wrap: wrap;
+          border-bottom: 5px solid v.$main-color;
+          padding-bottom: 5px;
+          @include m.flex-center($justify: space-between);
+
+          .home__news-title {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            background-image: url("../../assets/images/title-left.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 70%;
+          }
+        }
       }
     }
 
-    .more-btn-box {
-      width: 100%;
-      margin-top: 2rem;
-      @include m.flex-center;
+    .btn--more-game {
+      display: flex;
+      align-self: flex-end;
+      align-items: center;
 
-      .btn-more {
-        font-size: 1rem;
-        padding: 0.5rem 1rem;
-        border: 1px solid v.$white;
-        border-radius: 10px;
-        transition: 0.35s;
-        cursor: pointer;
+      .see-more__text {
+        display: flex;
+        align-self: flex-end;
+        color: v.$black;
+        margin-right: 0.5rem;
+        line-height: 1;
+      }
+      .see-more__container {
+        display: flex;
+        align-self: flex-end;
+        width: 50px;
 
-        &:hover {
-          color: v.$secondary;
-          background-color: v.$white;
+        .see-more__img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
         }
       }
     }
@@ -143,6 +188,20 @@
             object-fit: cover;
           }
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .home {
+    .home__carousel {
+      .home__carousel-image__container {
+        height: 350px;
+      }
+
+      .ad-banner {
+        height: 350px;
       }
     }
   }
