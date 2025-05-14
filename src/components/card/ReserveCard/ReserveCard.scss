@@ -3,7 +3,7 @@
 
 .card-reserve {
   display: flex;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   width: 100%;
 
   .card-reserve__image-container {
@@ -27,29 +27,30 @@
       font-size: 1rem;
       font-weight: 500;
       margin-bottom: 1rem;
+      color: v.$black;
       @include m.nowrap;
     }
 
     .btn--reserve {
       font-weight: 600;
-      color: v.$thirdary;
+      color: v.$white;
       align-self: start;
-      background-color: v.$white;
-      color: v.$secondary;
+      background-color: v.$main-color;
       letter-spacing: 0.1rem;
+      transition: 0.35s ease-in-out;
       @include m.btn-basic($radius: 5px, $font: 0.8rem);
       @include m.flex-center;
 
       &:hover {
         color: v.$secondary;
-        background-color: v.$white;
+        background-color: v.$main-color;
         transition: 0.35s;
         animation: pulse-rev 1s;
         box-shadow: 0 0 0 1em transparent;
 
         @keyframes pulse-rev {
           0% {
-            box-shadow: 0 0 0 0 v.$white;
+            box-shadow: 0 0 0 0 v.$main-color;
           }
         }
       }

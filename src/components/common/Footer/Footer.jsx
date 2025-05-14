@@ -1,18 +1,17 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import logo from "../../../assets/images/logo.png";
 import "./Footer.scss";
 
 const Footer = () => {
   const { t } = useTranslation();
-  const imageUrl =
-    "https://cdn.jsdelivr.net/gh/RalphSN/images@main/sainttime-images/logo_sainttime.png";
 
   return (
     <footer className="footer">
       <div className="footer__container">
         <div className="footer__logo">
-          <img src={imageUrl} alt="Logo" className="logo" />
+          <img src={logo} alt="Logo" className="logo" />
         </div>
         <div className="footer-info">
           <p className="footer-info__text">{t("footer.adultContentWarning")}</p>

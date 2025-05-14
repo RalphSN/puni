@@ -18,7 +18,7 @@ const PopularCard = ({
   const { t } = useTranslation();
 
   return (
-    <div className={`card-popular ${className}`}>
+    <Link className={`card-popular ${className}`} to={`/game?id=${id}`}>
       <figure className="card-popular__image-container">
         {image ? (
           <img
@@ -48,7 +48,7 @@ const PopularCard = ({
           </Link>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

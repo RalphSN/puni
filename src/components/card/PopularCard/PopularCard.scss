@@ -8,7 +8,10 @@
   height: auto;
   border-radius: 10px;
   overflow: hidden;
-  border: 1px solid v.$white;
+
+  :hover .card-popular__image {
+    transform: scale(1.2);
+  }
 
   .card-popular__image-container {
     width: 100%;
@@ -16,6 +19,7 @@
 
     .card-popular__image {
       border-bottom: 1px solid v.$white;
+      transition: 0.35s ease;
       @include m.img-cover;
     }
   }

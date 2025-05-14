@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Loading from "../common/Loading/Loading";
 import thumbnail from "../../assets/images/thumbnail.png";
 import "./NewsPreview.scss";
 
 const NewsPreview = () => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -56,7 +56,6 @@ const NewsPreview = () => {
 
   return (
     <section className="news-preview">
-      <h2 className="news-preview__title">{t("news.title")}</h2>
       <div className="news-preview__list">
         {news.map((item) => (
           <Link
@@ -69,20 +68,17 @@ const NewsPreview = () => {
               alt={item.title}
               className="news-thumbnail__img"
             />
-            <div>
-              <span className="news-preview__category">
-                【{item.category?.["zh-TW"]}】
-              </span>
-              <h3 className="news-preview__headline">{item.title}</h3>
+            <div className="news-preview__content">
+              <div className="news-preview__box">
+                <span className="news-preview__category">
+                  【{item.category?.["zh-TW"]}】
+                </span>
+                <h3 className="news-preview__headline">{item.title}</h3>
+              </div>
               <p className="news-preview__date">{formatDate(item.date)}</p>
             </div>
           </Link>
         ))}
-      </div>
-      <div className="news-preview__more">
-        <Link to="/news" className="btn btn--more-news">
-          {t("news.viewAll")}
-        </Link>
       </div>
     </section>
   );

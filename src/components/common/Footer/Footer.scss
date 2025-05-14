@@ -5,7 +5,7 @@
 .footer {
   display: flex;
   min-height: 15rem;
-  background: v.$black;
+  background: v.$footer;
   color: v.$white;
   padding: 5rem 10%;
   text-align: center;
@@ -34,6 +34,7 @@
     flex-direction: column;
     justify-content: center;
     margin-left: 2rem;
+    color: v.$footer-font;
   }
 
   .footer-info__text {
@@ -53,12 +54,13 @@
     margin-bottom: 0.5rem;
 
     .footer-info__link {
-      color: v.$primary;
+      color: v.$register-hover;
       text-decoration: none;
-      transition: 0.35s;
+      border-bottom: 2px solid transparent;
+      transition: 0.35s ease;
 
       &:hover {
-        color: v.$warning;
+        border-bottom: 2px solid v.$register-hover;
       }
     }
   }

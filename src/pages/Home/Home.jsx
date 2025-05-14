@@ -77,12 +77,12 @@ const Home = () => {
         <div className="home__content">
           <div className="home__main">
             <div className="home__popular">
-              <div className="home__popular-header">
+              <Link to={"/"} className="home__popular-header">
                 <h2 className="home__popular-title">
                   {t("home.popularGames")}
                 </h2>
                 <a href="#" className="btn--more-game">
-                  <span className="see-more__text">看更多</span>
+                  <span className="see-more__text">More</span>
                   <figure className="see-more__container">
                     <img
                       src={titleRight}
@@ -91,7 +91,7 @@ const Home = () => {
                     />
                   </figure>
                 </a>
-              </div>
+              </Link>
               <div className="home__popular-grid">
                 {cardData.map((card) => (
                   <PopularCard
@@ -106,10 +106,10 @@ const Home = () => {
               </div>
             </div>
             <div className="home__news">
-              <div className="home__news-header">
+              <Link to={"/"} className="home__news-header">
                 <h2 className="home__news-title">最新消息</h2>
                 <a href="#" className="btn--more-game">
-                  <span className="see-more__text">看更多</span>
+                  <span className="see-more__text">More</span>
                   <figure className="see-more__container">
                     <img
                       src={titleRight}
@@ -118,13 +118,17 @@ const Home = () => {
                     />
                   </figure>
                 </a>
-              </div>
+              </Link>
               <NewsPreview />
             </div>
           </div>
           <div className="home__side">
             <div className="home__side-reserve">
-              <h2 className="home__side-reserve-title">{t("home.reserve")}</h2>
+              <div className="home__side-reverse-header">
+                <h2 className="home__side-reserve-title">
+                  {t("home.reserve")}
+                </h2>
+              </div>
               <div className="home__reserve-list">
                 {reserveCardData.map((game) => (
                   <ReserveCard

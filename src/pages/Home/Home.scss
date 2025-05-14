@@ -93,7 +93,7 @@
           align-items: start;
           max-width: 100%;
           gap: 1rem;
-          margin-top: 2rem;
+          margin-top: 1rem 0;
           padding: 1rem 0;
         }
       }
@@ -149,18 +149,20 @@
       max-width: 30%;
 
       .home__side-reserve {
-        &-title {
-          display: flex;
-          align-items: center;
-          margin-bottom: 1rem;
+        .home__side-reverse-header {
+          border-bottom: 5px solid v.$main-color;
+          padding-bottom: 5px;
+          width: 100%;
 
-          &::before {
-            content: "";
-            display: inline-block;
-            width: 0.4rem;
-            height: 1.5em;
-            background-color: v.$thirdary;
-            margin-right: 20px;
+          .home__side-reserve-title {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            background-image: url("../../assets/images/title-left.png");
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            // background-position: right center;
+            width: 100%;
           }
         }
 
@@ -168,7 +170,6 @@
           display: flex;
           flex-direction: column;
           padding: 1rem 0;
-          border-bottom: 1px solid v.$white;
         }
       }
 
@@ -177,6 +178,8 @@
         width: 100%;
         position: relative;
         margin-top: 2rem;
+        border-radius: 15px;
+        overflow: hidden;
         @include m.home-carousel-setting;
 
         .home__side-ad-link {
@@ -209,6 +212,21 @@
 
 @media (max-width: 991px) {
   .home {
+    .home__carousel {
+      flex-direction: column;
+
+      .home__carousel-image__container {
+        flex: 0;
+        width: 100%;
+        height: 300px;
+      }
+      .ad-banner {
+        flex-direction: row;
+        width: 100%;
+        max-width: none;
+        gap: 1rem;
+      }
+    }
     .home__content {
       flex-direction: column;
 
@@ -243,6 +261,32 @@
     .home__content {
       .home__side {
         flex-direction: column;
+      }
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .home {
+    .home__carousel {
+      .ad-banner {
+        flex-direction: column;
+      }
+    }
+
+    .home__content {
+      .btn--more-game {
+        display: none;
+      }
+
+      .home__main {
+        .home__popular {
+          .home__popular-header {
+            .home__popular-title {
+              width: 100%;
+            }
+          }
+        }
       }
     }
   }
