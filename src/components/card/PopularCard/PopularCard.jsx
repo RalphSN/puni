@@ -1,5 +1,6 @@
-import React from 'react';
+import React from "react";
 import PropTypes from "prop-types";
+import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import "./PopularCard.scss";
@@ -15,10 +16,14 @@ const PopularCard = ({
   className = "",
   children,
 }) => {
+  const navigate = useNavigate();
   const { t } = useTranslation();
 
   return (
-    <Link className={`card-popular ${className}`} to={`/game?id=${id}`}>
+    <div
+      className={`card-popular ${className}`}
+      onClick={() => navigate(`/game?id=${id}`)}
+    >
       <figure className="card-popular__image-container">
         {image ? (
           <img
@@ -40,15 +45,23 @@ const PopularCard = ({
           </Link>
         )} */}
         <div className="platform-btns">
-          <Link to={`/game?id=${id}`} className="btn--apple btn--platform">
-            <img src={androidIcon} alt="android icon" className='platform-btns__img'/>
+          <Link to={`/game?id=${id}`} className="btn--platform">
+            <img
+              src={androidIcon}
+              alt="android icon"
+              className="platform-btns__img"
+            />
           </Link>
-          <Link to={`/game?id=${id}`} className="btn--android btn--platform">
-            <img src={appleIcon} alt="apple icon" className='platform-btns__img'/>
+          <Link to={`/game?id=${id}`} className="btn--platform">
+            <img
+              src={appleIcon}
+              alt="apple icon"
+              className="platform-btns__img"
+            />
           </Link>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 

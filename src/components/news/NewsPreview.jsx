@@ -10,6 +10,9 @@ const NewsPreview = () => {
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const getIsMobile = () =>
+    typeof window !== "undefined" && window.innerWidth < 767;
+  const [isMobile, setIsMobile] = useState(getIsMobile());
 
   useEffect(() => {
     const fetchNews = async () => {
@@ -43,6 +46,18 @@ const NewsPreview = () => {
     fetchNews();
   }, []);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 767);
+    };
+
+    // 初始就確認一次
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const formatDate = (dateString) => {
     return new Intl.DateTimeFormat("zh-TW", {
       year: "numeric",
@@ -57,28 +72,51 @@ const NewsPreview = () => {
   return (
     <section className="news-preview">
       <div className="news-preview__list">
-        {news.map((item) => (
-          <Link
-            key={item.id}
-            to={`/news/${item.id}`}
-            className="news-preview__item"
-          >
-            <img
-              src={item.thumbnail}
-              alt={item.title}
-              className="news-thumbnail__img"
-            />
-            <div className="news-preview__content">
-              <div className="news-preview__box">
-                <span className="news-preview__category">
-                  【{item.category?.["zh-TW"]}】
-                </span>
+        {news.map((item) =>
+          isMobile ? (
+            <Link
+              key={item.id}
+              to={`/news/${item.id}`}
+              className="news-preview__item mobile"
+            >
+              <img
+                src={item.thumbnail}
+                alt={item.title}
+                className="news-thumbnail__img"
+              />
+              <div className="news-preview__content">
+                <div className="news-preview__box">
+                  <span className="news-preview__category">
+                    【{item.category?.["zh-TW"]}】
+                  </span>
+                  <p className="news-preview__date">{formatDate(item.date)}</p>
+                </div>
                 <h3 className="news-preview__headline">{item.title}</h3>
               </div>
-              <p className="news-preview__date">{formatDate(item.date)}</p>
-            </div>
-          </Link>
-        ))}
+            </Link>
+          ) : (
+            <Link
+              key={item.id}
+              to={`/news/${item.id}`}
+              className="news-preview__item"
+            >
+              <img
+                src={item.thumbnail}
+                alt={item.title}
+                className="news-thumbnail__img"
+              />
+              <div className="news-preview__content">
+                <div className="news-preview__box">
+                  <span className="news-preview__category">
+                    【{item.category?.["zh-TW"]}】
+                  </span>
+                  <h3 className="news-preview__headline">{item.title}</h3>
+                </div>
+                <p className="news-preview__date">{formatDate(item.date)}</p>
+              </div>
+            </Link>
+          )
+        )}
       </div>
     </section>
   );

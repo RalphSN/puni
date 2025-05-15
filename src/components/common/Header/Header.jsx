@@ -12,7 +12,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import { AuthContext } from "../../../context/AuthContext"; // 使用 AuthContext
-import logo from "../../../assets/images/logo.png";
+import logo from "../../../assets/images/logo.svg";
 import "./Header.scss";
 
 const Header = () => {
@@ -95,7 +95,10 @@ const Header = () => {
     { key: "navbar.home", to: "/" },
     { key: "navbar.popularGames", to: "/games" },
     { key: "navbar.gift", to: "/gift" },
-    ...(user ? [{ key: "navbar.member", to: "/member" }] : []),
+    {
+      key: "navbar.member",
+      to: user ? "/member" : "/login",
+    },
   ];
 
   // 語言選單

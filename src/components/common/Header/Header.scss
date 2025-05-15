@@ -20,8 +20,8 @@
     position: absolute;
     bottom: 0;
     left: calc(-1 * (100vw - 100%) / 2);
-    width: 100vw; 
-    height: 2px;
+    width: 100vw;
+    height: 5px;
     background-color: v.$main-color;
     z-index: 1;
   }
@@ -329,16 +329,13 @@
   left: 0;
   right: 0;
   height: 70px;
-  background-color: v.$thirdary;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  background-color: v.$main-color;
   z-index: 999;
 
   @include m.flex-center($justify: space-around);
 
   .mobile-nav__item {
-    color: v.$thirdary-light;
+    color: #B89CDE;
     opacity: 0.9;
     font-size: 1rem;
     flex-direction: column;

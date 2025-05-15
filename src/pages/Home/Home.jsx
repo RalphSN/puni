@@ -15,7 +15,7 @@ import NewsPreview from "../../components/news/NewsPreview";
 import ad01 from "../../assets/images/ad01.png";
 import ad02 from "../../assets/images/ad02.png";
 import titleRight from "../../assets/images/title-right.png";
-
+import titleLeft from "../../assets/images/title-left.png";
 const Home = () => {
   const { t } = useTranslation();
 
@@ -79,9 +79,16 @@ const Home = () => {
             <div className="home__popular">
               <Link to={"/"} className="home__popular-header">
                 <h2 className="home__popular-title">
-                  {t("home.popularGames")}
+                  <figure className="title-img__container">
+                    <img
+                      src={titleLeft}
+                      alt="title image"
+                      className="title-img"
+                    />
+                  </figure>
+                  <span className="title-text">{t("home.popularGames")}</span>
                 </h2>
-                <a href="#" className="btn--more-game">
+                <div className="btn--more-game">
                   <span className="see-more__text">More</span>
                   <figure className="see-more__container">
                     <img
@@ -90,7 +97,7 @@ const Home = () => {
                       className="see-more__img"
                     />
                   </figure>
-                </a>
+                </div>
               </Link>
               <div className="home__popular-grid">
                 {cardData.map((card) => (
@@ -107,8 +114,17 @@ const Home = () => {
             </div>
             <div className="home__news">
               <Link to={"/"} className="home__news-header">
-                <h2 className="home__news-title">最新消息</h2>
-                <a href="#" className="btn--more-game">
+                <h2 className="home__news-title">
+                  <figure className="title-img__container">
+                    <img
+                      src={titleLeft}
+                      alt="title image"
+                      className="title-img"
+                    />
+                  </figure>
+                  <span className="title-text">最新消息</span>
+                </h2>
+                <div className="btn--more-game">
                   <span className="see-more__text">More</span>
                   <figure className="see-more__container">
                     <img
@@ -117,7 +133,7 @@ const Home = () => {
                       className="seee-more__img"
                     />
                   </figure>
-                </a>
+                </div>
               </Link>
               <NewsPreview />
             </div>
@@ -126,7 +142,14 @@ const Home = () => {
             <div className="home__side-reserve">
               <div className="home__side-reverse-header">
                 <h2 className="home__side-reserve-title">
-                  {t("home.reserve")}
+                   <figure className="title-img__container">
+                    <img
+                      src={titleLeft}
+                      alt="title image"
+                      className="title-img"
+                    />
+                  </figure>
+                  <span className="title-text">{t("home.reserve")}</span>
                 </h2>
               </div>
               <div className="home__reserve-list">

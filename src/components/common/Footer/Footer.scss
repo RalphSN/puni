@@ -4,10 +4,10 @@
 
 .footer {
   display: flex;
-  min-height: 15rem;
+  min-height: 10rem;
   background: v.$footer;
   color: v.$white;
-  padding: 5rem 10%;
+  padding: 3rem 10%;
   text-align: center;
   font-size: 1rem;
   box-shadow: 0 -4px 6px rgba(255, 255, 255, 0.05);
@@ -68,6 +68,9 @@
 
 @media (max-width: 768px) {
   .footer {
+    padding: 2rem 5%;
+    padding-bottom: 6rem;
+
     .footer__container {
       flex-direction: column;
       justify-content: center;

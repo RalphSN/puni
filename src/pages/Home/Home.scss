@@ -64,6 +64,24 @@
     font-size: 1.2rem;
     gap: 2rem;
 
+    // =====共用標題區域樣式=====
+    .title-img__container {
+      height: 60px;
+
+      .title-img {
+        object-fit: cover;
+        object-position: right;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .title-text {
+      position: absolute;
+      left: 15px;
+    }
+    // =====共用標題區域樣式=====
+
     .home__main {
       flex: 2;
 
@@ -78,11 +96,7 @@
           .home__popular-title {
             display: flex;
             align-items: center;
-            padding: 0.5rem 1rem;
-            background-image: url("../../assets/images/title-left.png");
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 70%;
+            position: relative;
           }
         }
 
@@ -109,11 +123,7 @@
           .home__news-title {
             display: flex;
             align-items: center;
-            padding: 0.5rem 1rem;
-            background-image: url("../../assets/images/title-left.png");
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 70%;
+            position: relative;
           }
         }
       }
@@ -157,12 +167,7 @@
           .home__side-reserve-title {
             display: flex;
             align-items: center;
-            padding: 0.5rem 1rem;
-            background-image: url("../../assets/images/title-left.png");
-            background-size: auto 100%;
-            background-repeat: no-repeat;
-            // background-position: right center;
-            width: 100%;
+            position: relative;
           }
         }
 
@@ -259,6 +264,9 @@
 @media (max-width: 767px) {
   .home {
     .home__content {
+      .btn--more-game {
+        display: none;
+      }
       .home__side {
         flex-direction: column;
       }
@@ -269,16 +277,19 @@
 @media (max-width: 430px) {
   .home {
     .home__carousel {
+      .home__carousel-image__container {
+        height: 250px;
+
+        .home__carousel-image {
+          height: 250px;
+        }
+      }
       .ad-banner {
         flex-direction: column;
       }
     }
 
     .home__content {
-      .btn--more-game {
-        display: none;
-      }
-
       .home__main {
         .home__popular {
           .home__popular-header {
