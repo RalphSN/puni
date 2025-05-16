@@ -335,7 +335,7 @@
   @include m.flex-center($justify: space-around);
 
   .mobile-nav__item {
-    color: #B89CDE;
+    color: v.$nav-item;
     opacity: 0.9;
     font-size: 1rem;
     flex-direction: column;
@@ -349,7 +349,7 @@
     }
 
     &.active {
-      color: v.$white;
+      color: v.$nav-active;
       opacity: 1;
     }
   }

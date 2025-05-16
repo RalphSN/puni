@@ -99,8 +99,9 @@ const Home = () => {
                   </figure>
                 </div>
               </Link>
+
               <div className="home__popular-grid">
-                {cardData.map((card) => (
+                {cardData.slice(0, 6).map((card) => (
                   <PopularCard
                     key={card.id}
                     id={card.id}
@@ -142,7 +143,7 @@ const Home = () => {
             <div className="home__side-reserve">
               <div className="home__side-reverse-header">
                 <h2 className="home__side-reserve-title">
-                   <figure className="title-img__container">
+                  <figure className="title-img__container">
                     <img
                       src={titleLeft}
                       alt="title image"
