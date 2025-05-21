@@ -1,12 +1,10 @@
 import { useEffect, useState } from "react";
-// import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Loading from "../common/Loading/Loading";
 import thumbnail from "../../assets/images/thumbnail.png";
 import "./NewsPreview.scss";
 
 const NewsPreview = () => {
-  // const { t } = useTranslation();
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
